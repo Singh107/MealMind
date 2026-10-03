@@ -1,0 +1,504 @@
+{
+  "calculated_nutrition": {
+    "totals": {
+      "calories": null,
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "fiber": null,
+      "sodium": null
+    },
+    "per_serving": {
+      "calories": null,
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "fiber": null,
+      "sodium": null
+    },
+    "known_totals": {
+      "calories": 569.507945,
+      "protein": 78.8375,
+      "carbohydrates": 0.0,
+      "fat": 26.769,
+      "fiber": 0.0,
+      "sodium": 230.525
+    },
+    "known_per_serving": {
+      "calories": 284.7539725,
+      "protein": 39.41875,
+      "carbohydrates": 0.0,
+      "fat": 13.3845,
+      "fiber": 0.0,
+      "sodium": 115.2625
+    },
+    "coverage": {
+      "calories": 2,
+      "protein": 2,
+      "carbohydrates": 2,
+      "fat": 2,
+      "fiber": 1,
+      "sodium": 2
+    },
+    "ingredient_count": 8,
+    "servings": 2,
+    "calculation_version": "nutrition-v1"
+  },
+  "nutrition_status": "partial",
+  "nutrition_sources": [
+    {
+      "ingredient_index": 0,
+      "ingredient": {
+        "original_text": "130.0 g dry white long-grain rice",
+        "name": "white long-grain rice",
+        "canonical_name": null,
+        "quantity": 130.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": "dry",
+        "grams": 130.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unmatched",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "No unique food match with the same identity and preparation state."
+    },
+    {
+      "ingredient_index": 1,
+      "ingredient": {
+        "original_text": "260.0 g water",
+        "name": "water",
+        "canonical_name": "water",
+        "quantity": 260.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 260.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unmatched",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "No unique food match with the same identity and preparation state."
+    },
+    {
+      "ingredient_index": 2,
+      "ingredient": {
+        "original_text": "350.0 g raw boneless skinless chicken breast",
+        "name": "boneless skinless chicken breast",
+        "canonical_name": null,
+        "quantity": 350.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": "raw",
+        "grams": 350.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "calculated",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "2646170",
+        "description": "Chicken, breast, boneless, skinless, raw",
+        "data_type": "Foundation",
+        "retrieved_at": "2026-09-12T01:19:36.350413+00:00",
+        "food_state": "raw",
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": 112.20227,
+          "protein": 22.525,
+          "carbohydrates": 0.0,
+          "fat": 1.934,
+          "fiber": null,
+          "sodium": 65.75
+        },
+        "nutrient_ids": {
+          "calories": 2048,
+          "protein": 1003,
+          "carbohydrates": 1005,
+          "fat": 1004,
+          "sodium": 1093
+        },
+        "portions": []
+      },
+      "nutrients": {
+        "calories": 392.707945,
+        "protein": 78.8375,
+        "carbohydrates": 0.0,
+        "fat": 6.769,
+        "fiber": null,
+        "sodium": 230.125
+      },
+      "reason": null
+    },
+    {
+      "ingredient_index": 3,
+      "ingredient": {
+        "original_text": "250.0 g raw broccoli florets",
+        "name": "broccoli florets",
+        "canonical_name": null,
+        "quantity": 250.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": "raw",
+        "grams": 250.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unmatched",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "No unique food match with the same identity and preparation state."
+    },
+    {
+      "ingredient_index": 4,
+      "ingredient": {
+        "original_text": "20.0 g olive oil",
+        "name": "olive oil",
+        "canonical_name": "olive oil",
+        "quantity": 20.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 20.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "calculated",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "171413",
+        "description": "Oil, olive, salad or cooking",
+        "data_type": "SR Legacy",
+        "retrieved_at": "2026-09-12T01:19:39.548711+00:00",
+        "food_state": null,
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": 884.0,
+          "protein": 0.0,
+          "carbohydrates": 0.0,
+          "fat": 100.0,
+          "fiber": 0.0,
+          "sodium": 2.0
+        },
+        "nutrient_ids": {
+          "calories": 1008,
+          "protein": 1003,
+          "carbohydrates": 1005,
+          "fat": 1004,
+          "fiber": 1079,
+          "sodium": 1093
+        },
+        "portions": [
+          {
+            "unit": "tbsp",
+            "amount": 1.0,
+            "gram_weight": 13.5,
+            "description": "tablespoon"
+          },
+          {
+            "unit": "tsp",
+            "amount": 1.0,
+            "gram_weight": 4.5,
+            "description": "tsp"
+          },
+          {
+            "unit": "cup",
+            "amount": 1.0,
+            "gram_weight": 216.0,
+            "description": "cup"
+          }
+        ]
+      },
+      "nutrients": {
+        "calories": 176.8,
+        "protein": 0.0,
+        "carbohydrates": 0.0,
+        "fat": 20.0,
+        "fiber": 0.0,
+        "sodium": 0.4
+      },
+      "reason": null
+    },
+    {
+      "ingredient_index": 5,
+      "ingredient": {
+        "original_text": "10.0 g raw garlic clove",
+        "name": "garlic clove",
+        "canonical_name": null,
+        "quantity": 10.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": "raw",
+        "grams": 10.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unmatched",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "No unique food match with the same identity and preparation state."
+    },
+    {
+      "ingredient_index": 6,
+      "ingredient": {
+        "original_text": "3.0 g table salt",
+        "name": "table salt",
+        "canonical_name": "salt",
+        "quantity": 3.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 3.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unavailable",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "Nutrition provider unavailable or timed out. Uncalculated ingredients remain unknown."
+    },
+    {
+      "ingredient_index": 7,
+      "ingredient": {
+        "original_text": "1.0 g ground black pepper",
+        "name": "ground black pepper",
+        "canonical_name": null,
+        "quantity": 1.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 1.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unavailable",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "Nutrition provider unavailable or timed out. Uncalculated ingredients remain unknown."
+    }
+  ],
+  "unmatched_ingredients": [
+    "130.0 g dry white long-grain rice",
+    "260.0 g water",
+    "250.0 g raw broccoli florets",
+    "10.0 g raw garlic clove",
+    "3.0 g table salt",
+    "1.0 g ground black pepper"
+  ],
+  "constraint_results": [
+    {
+      "constraint": "minimum_calories",
+      "requested": 500.0,
+      "actual": null,
+      "unit": "kcal",
+      "status": "unknown",
+      "passed": null,
+      "difference": null,
+      "reason": "Insufficient calculated nutrient coverage; the AI estimate is not used.",
+      "evidence": [
+        "usda_fdc:2646170",
+        "usda_fdc:171413"
+      ]
+    },
+    {
+      "constraint": "maximum_calories",
+      "requested": 650.0,
+      "actual": null,
+      "unit": "kcal",
+      "status": "unknown",
+      "passed": null,
+      "difference": null,
+      "reason": "Insufficient calculated nutrient coverage; the AI estimate is not used.",
+      "evidence": [
+        "usda_fdc:2646170",
+        "usda_fdc:171413"
+      ]
+    },
+    {
+      "constraint": "minimum_protein",
+      "requested": 35.0,
+      "actual": null,
+      "unit": "g",
+      "status": "unknown",
+      "passed": null,
+      "difference": null,
+      "reason": "Insufficient calculated nutrient coverage; the AI estimate is not used.",
+      "evidence": [
+        "usda_fdc:2646170",
+        "usda_fdc:171413"
+      ]
+    },
+    {
+      "constraint": "maximum_cooking_time",
+      "requested": 30.0,
+      "actual": 20.0,
+      "unit": "minutes",
+      "status": "passed",
+      "passed": true,
+      "difference": -10.0,
+      "reason": "At or below the inclusive maximum.",
+      "evidence": [
+        "recipe:estimated_cook_time"
+      ]
+    }
+  ],
+  "overall_constraint_status": "partially_verified",
+  "potential_allergen_warnings": [],
+  "constraint_version": "constraints-v1",
+  "recipe": {
+    "title": "Pan-Seared Chicken Breast with Rice and Steamed Broccoli",
+    "description": "A balanced, wholesome weeknight meal featuring tender seared chicken breast, fluffy white rice, and crisp-tender steamed broccoli florets.",
+    "ingredients": [
+      {
+        "name": "dry white long-grain rice",
+        "quantity": 130.0,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "quantity": 260.0,
+        "unit": "g"
+      },
+      {
+        "name": "raw boneless skinless chicken breast",
+        "quantity": 350.0,
+        "unit": "g"
+      },
+      {
+        "name": "raw broccoli florets",
+        "quantity": 250.0,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 20.0,
+        "unit": "g"
+      },
+      {
+        "name": "raw garlic clove",
+        "quantity": 10.0,
+        "unit": "g"
+      },
+      {
+        "name": "table salt",
+        "quantity": 3.0,
+        "unit": "g"
+      },
+      {
+        "name": "ground black pepper",
+        "quantity": 1.0,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Rinse the dry white long-grain rice under cold water until the water runs clear, then drain.",
+      "In a small pot, combine the rinsed rice, water, and 1 gram of the table salt. Bring to a boil over medium-high heat, then cover with a tight-fitting lid, reduce the heat to low, and simmer for 15 minutes. Remove from heat and let sit covered for 5 minutes before fluffing with a fork.",
+      "While the rice cooks, mince the raw garlic clove and cut the raw boneless skinless chicken breast into bite-sized pieces.",
+      "Season the chicken evenly with the remaining 2 grams of table salt and the ground black pepper.",
+      "Heat 10 grams of olive oil in a large skillet over medium-high heat. Add the chicken pieces and cook for 6 to 8 minutes, turning occasionally, until golden brown and cooked through to an internal temperature of 74\u00b0C (165\u00b0F). Transfer the chicken to a plate.",
+      "Add the remaining 10 grams of olive oil and the minced garlic to the same skillet, cooking for 30 seconds until fragrant.",
+      "Add the raw broccoli florets along with 30 grams of water (not listed in base ingredients, for steam). Cover immediately with a lid to steam for 4 to 5 minutes until crisp-tender and vibrant green.",
+      "Return the cooked chicken to the skillet with the broccoli, tossing everything together for 1 minute to reheat and combine flavors.",
+      "Divide the warm rice, chicken, and broccoli evenly between two plates and serve immediately."
+    ],
+    "prep_time": 10,
+    "cook_time": 20,
+    "total_time": 30,
+    "servings": 2,
+    "cuisine": "American",
+    "difficulty": "beginner",
+    "dietary_tags": [
+      "Dairy-Free",
+      "Gluten-Free",
+      "High-Protein"
+    ],
+    "potential_allergens": [],
+    "nutrition": {
+      "calories": 565.0,
+      "protein": 46.0,
+      "carbohydrates": 61.0,
+      "fat": 14.0,
+      "fiber": 4.0,
+      "sodium": 680.0
+    },
+    "id": "e8952ad1-c4fc-45ea-94e0-92504afbfde1",
+    "recipe_version_id": "e703cb6f-d0bf-42ca-a610-297afe453f43",
+    "validation_status": "unverified",
+    "nutrition_source": "ai_estimate",
+    "nutrition_basis": "per_serving"
+  },
+  "warnings": [
+    "Legacy recipe.nutrition contains AI estimates; calculated_nutrition is independent food-data arithmetic.",
+    "Generic food data does not establish allergen safety. Check ingredients and product labels.",
+    "Additional ingredients may be included; review the complete ingredient list."
+  ],
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "prompt_version": "recipe-v3",
+    "schema_version": "1.1"
+  },
+  "trace_id": "fd407ab3-2523-4ff5-a67f-23ccbff9170e"
+}

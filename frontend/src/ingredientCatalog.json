@@ -1,0 +1,1294 @@
+[
+  {
+    "id": "chicken-breast",
+    "name": "Chicken Breast",
+    "canonical": "chicken breast",
+    "category": "Proteins",
+    "aliases": [
+      "chicken breast"
+    ],
+    "composition": "meat",
+    "allergens": [],
+    "parent": "chicken"
+  },
+  {
+    "id": "ground-beef",
+    "name": "Ground Beef",
+    "canonical": "ground beef",
+    "category": "Proteins",
+    "aliases": [
+      "ground beef"
+    ],
+    "composition": "meat",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "canonical": "salmon",
+    "category": "Proteins",
+    "aliases": [
+      "salmon"
+    ],
+    "composition": "fish",
+    "allergens": [
+      "fish"
+    ],
+    "parent": null
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu",
+    "canonical": "tofu",
+    "category": "Proteins",
+    "aliases": [
+      "tofu"
+    ],
+    "composition": "plant",
+    "allergens": [
+      "soy"
+    ],
+    "parent": null
+  },
+  {
+    "id": "egg",
+    "name": "Eggs",
+    "canonical": "egg",
+    "category": "Proteins",
+    "aliases": [
+      "egg",
+      "eggs"
+    ],
+    "composition": "egg",
+    "allergens": [
+      "eggs"
+    ],
+    "parent": null
+  },
+  {
+    "id": "shrimp",
+    "name": "Shrimp",
+    "canonical": "shrimp",
+    "category": "Proteins",
+    "aliases": [
+      "prawn",
+      "prawns",
+      "shrimp"
+    ],
+    "composition": "shellfish",
+    "allergens": [
+      "shellfish"
+    ],
+    "parent": null
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "canonical": "broccoli",
+    "category": "Vegetables",
+    "aliases": [
+      "broccoli"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "canonical": "spinach",
+    "category": "Vegetables",
+    "aliases": [
+      "spinach"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "bell-pepper",
+    "name": "Bell Peppers",
+    "canonical": "bell pepper",
+    "category": "Vegetables",
+    "aliases": [
+      "bell pepper",
+      "bell peppers"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "carrot",
+    "name": "Carrots",
+    "canonical": "carrot",
+    "category": "Vegetables",
+    "aliases": [
+      "carrot",
+      "carrots"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "onion",
+    "name": "Onions",
+    "canonical": "onion",
+    "category": "Vegetables",
+    "aliases": [
+      "onion",
+      "onions"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "canonical": "garlic",
+    "category": "Vegetables",
+    "aliases": [
+      "garlic"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "tomato",
+    "name": "Tomatoes",
+    "canonical": "tomato",
+    "category": "Vegetables",
+    "aliases": [
+      "tomato",
+      "tomatoes"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "zucchini",
+    "name": "Zucchini",
+    "canonical": "zucchini",
+    "category": "Vegetables",
+    "aliases": [
+      "courgette",
+      "zucchini"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushrooms",
+    "canonical": "mushroom",
+    "category": "Vegetables",
+    "aliases": [
+      "mushroom",
+      "mushrooms"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "brown-rice",
+    "name": "Brown Rice",
+    "canonical": "brown rice",
+    "category": "Grains",
+    "aliases": [
+      "brown rice"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "quinoa",
+    "name": "Quinoa",
+    "canonical": "quinoa",
+    "category": "Grains",
+    "aliases": [
+      "quinoa"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "pasta",
+    "name": "Pasta",
+    "canonical": "pasta",
+    "category": "Grains",
+    "aliases": [
+      "pasta"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "black-bean",
+    "name": "Black Beans",
+    "canonical": "black bean",
+    "category": "Legumes",
+    "aliases": [
+      "black bean",
+      "black beans"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "chickpea",
+    "name": "Chickpeas",
+    "canonical": "chickpea",
+    "category": "Legumes",
+    "aliases": [
+      "chana",
+      "chickpea",
+      "chickpeas",
+      "garbanzo bean",
+      "garbanzo beans"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "lentil",
+    "name": "Lentils",
+    "canonical": "lentil",
+    "category": "Legumes",
+    "aliases": [
+      "lentil",
+      "lentils"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "apple",
+    "name": "Apples",
+    "canonical": "apple",
+    "category": "Fruits",
+    "aliases": [
+      "apple",
+      "apples"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "banana",
+    "name": "Bananas",
+    "canonical": "banana",
+    "category": "Fruits",
+    "aliases": [
+      "banana",
+      "bananas"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "berries",
+    "name": "Berries",
+    "canonical": "berries",
+    "category": "Fruits",
+    "aliases": [
+      "berries"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "canonical": "avocado",
+    "category": "Fruits",
+    "aliases": [
+      "avocado"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "canonical": "milk",
+    "category": "Dairy",
+    "aliases": [
+      "milk"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "cheese",
+    "name": "Cheese",
+    "canonical": "cheese",
+    "category": "Dairy",
+    "aliases": [
+      "cheese"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "yogurt",
+    "name": "Yogurt",
+    "canonical": "yogurt",
+    "category": "Dairy",
+    "aliases": [
+      "dahi",
+      "yoghurt",
+      "yogurt",
+      "plain yogurt"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "canonical": "basil",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "basil"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "canonical": "oregano",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "oregano"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "paprika",
+    "name": "Paprika",
+    "canonical": "paprika",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "paprika"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "cumin",
+    "name": "Cumin",
+    "canonical": "cumin",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "cumin"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "olive-oil",
+    "name": "Olive Oil",
+    "canonical": "olive oil",
+    "category": "Oils & Fats",
+    "aliases": [
+      "olive oil"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "soy-sauce",
+    "name": "Soy Sauce",
+    "canonical": "soy sauce",
+    "category": "Sauces & Condiments",
+    "aliases": [
+      "soy sauce"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "honey",
+    "name": "Honey",
+    "canonical": "honey",
+    "category": "Sweeteners",
+    "aliases": [
+      "honey"
+    ],
+    "composition": "honey",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "canonical": "chicken",
+    "category": "Proteins",
+    "aliases": [
+      "chicken"
+    ],
+    "composition": "meat",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "chicken-thigh",
+    "name": "Chicken thigh",
+    "canonical": "chicken thigh",
+    "category": "Proteins",
+    "aliases": [
+      "chicken thigh"
+    ],
+    "composition": "meat",
+    "allergens": [],
+    "parent": "chicken"
+  },
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "canonical": "turkey",
+    "category": "Proteins",
+    "aliases": [
+      "turkey"
+    ],
+    "composition": "meat",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "ground-turkey",
+    "name": "Ground turkey",
+    "canonical": "ground turkey",
+    "category": "Proteins",
+    "aliases": [
+      "ground turkey"
+    ],
+    "composition": "meat",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "tuna",
+    "name": "Tuna",
+    "canonical": "tuna",
+    "category": "Proteins",
+    "aliases": [
+      "tuna"
+    ],
+    "composition": "fish",
+    "allergens": [
+      "fish"
+    ],
+    "parent": null
+  },
+  {
+    "id": "beef",
+    "name": "Beef",
+    "canonical": "beef",
+    "category": "Proteins",
+    "aliases": [
+      "beef"
+    ],
+    "composition": "meat",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "kidney-bean",
+    "name": "Kidney beans",
+    "canonical": "kidney bean",
+    "category": "Legumes",
+    "aliases": [
+      "kidney bean",
+      "kidney beans",
+      "rajma",
+      "red kidney bean",
+      "red kidney beans"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "red-lentil",
+    "name": "Red lentils",
+    "canonical": "red lentil",
+    "category": "Legumes",
+    "aliases": [
+      "red lentil",
+      "red lentils"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "green-lentil",
+    "name": "Green lentils",
+    "canonical": "green lentil",
+    "category": "Legumes",
+    "aliases": [
+      "green lentil",
+      "green lentils"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "pinto-bean",
+    "name": "Pinto beans",
+    "canonical": "pinto bean",
+    "category": "Legumes",
+    "aliases": [
+      "pinto bean",
+      "pinto beans"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "pea",
+    "name": "Peas",
+    "canonical": "pea",
+    "category": "Legumes",
+    "aliases": [
+      "pea",
+      "peas"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "canonical": "rice",
+    "category": "Grains",
+    "aliases": [
+      "rice"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "basmati-rice",
+    "name": "Basmati rice",
+    "canonical": "basmati rice",
+    "category": "Grains",
+    "aliases": [
+      "basmati rice"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "jasmine-rice",
+    "name": "Jasmine rice",
+    "canonical": "jasmine rice",
+    "category": "Grains",
+    "aliases": [
+      "jasmine rice"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "white-rice",
+    "name": "White rice",
+    "canonical": "white rice",
+    "category": "Grains",
+    "aliases": [
+      "white rice"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "oats",
+    "name": "Oats",
+    "canonical": "oats",
+    "category": "Grains",
+    "aliases": [
+      "oats"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "canonical": "bread",
+    "category": "Grains",
+    "aliases": [
+      "bread"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "wheat-flour",
+    "name": "Wheat flour",
+    "canonical": "wheat flour",
+    "category": "Grains",
+    "aliases": [
+      "all purpose flour",
+      "wheat flour"
+    ],
+    "composition": "plant",
+    "allergens": [
+      "wheat",
+      "gluten"
+    ],
+    "parent": null
+  },
+  {
+    "id": "potato",
+    "name": "Potatoes",
+    "canonical": "potato",
+    "category": "Vegetables",
+    "aliases": [
+      "potato",
+      "potatoes"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "sweet-potato",
+    "name": "Sweet potatoes",
+    "canonical": "sweet potato",
+    "category": "Vegetables",
+    "aliases": [
+      "sweet potato",
+      "sweet potatoes"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "canonical": "cucumber",
+    "category": "Vegetables",
+    "aliases": [
+      "cucumber"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "canonical": "cabbage",
+    "category": "Vegetables",
+    "aliases": [
+      "cabbage"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "canonical": "cauliflower",
+    "category": "Vegetables",
+    "aliases": [
+      "cauliflower"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "eggplant",
+    "name": "Eggplant",
+    "canonical": "eggplant",
+    "category": "Vegetables",
+    "aliases": [
+      "aubergine",
+      "eggplant"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "green-bean",
+    "name": "Green beans",
+    "canonical": "green bean",
+    "category": "Vegetables",
+    "aliases": [
+      "green bean",
+      "green beans"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "canonical": "lettuce",
+    "category": "Vegetables",
+    "aliases": [
+      "lettuce"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "canonical": "celery",
+    "category": "Vegetables",
+    "aliases": [
+      "celery"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "asparagus",
+    "name": "Asparagus",
+    "canonical": "asparagus",
+    "category": "Vegetables",
+    "aliases": [
+      "asparagus"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "beetroot",
+    "name": "Beetroot",
+    "canonical": "beetroot",
+    "category": "Vegetables",
+    "aliases": [
+      "beetroot"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "canonical": "pumpkin",
+    "category": "Vegetables",
+    "aliases": [
+      "pumpkin"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "canonical": "orange",
+    "category": "Fruits",
+    "aliases": [
+      "orange"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "canonical": "lemon",
+    "category": "Fruits",
+    "aliases": [
+      "lemon"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "lime",
+    "name": "Lime",
+    "canonical": "lime",
+    "category": "Fruits",
+    "aliases": [
+      "lime"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "canonical": "strawberry",
+    "category": "Fruits",
+    "aliases": [
+      "strawberry"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "blueberry",
+    "name": "Blueberry",
+    "canonical": "blueberry",
+    "category": "Fruits",
+    "aliases": [
+      "blueberry"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "canonical": "mango",
+    "category": "Fruits",
+    "aliases": [
+      "mango"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "canonical": "pineapple",
+    "category": "Fruits",
+    "aliases": [
+      "pineapple"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "grape",
+    "name": "Grape",
+    "canonical": "grape",
+    "category": "Fruits",
+    "aliases": [
+      "grape"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "greek-yogurt",
+    "name": "Greek yogurt",
+    "canonical": "greek yogurt",
+    "category": "Dairy",
+    "aliases": [
+      "greek yoghurt",
+      "greek yogurt"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "paneer",
+    "name": "Paneer",
+    "canonical": "paneer",
+    "category": "Dairy",
+    "aliases": [
+      "paneer"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "canonical": "butter",
+    "category": "Dairy",
+    "aliases": [
+      "butter"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "cream-cheese",
+    "name": "Cream cheese",
+    "canonical": "cream cheese",
+    "category": "Dairy",
+    "aliases": [
+      "cream cheese"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "canonical": "black pepper",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "black pepper"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric",
+    "canonical": "turmeric",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "turmeric"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "canonical": "ginger",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "ginger"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "coriander",
+    "name": "Coriander",
+    "canonical": "coriander",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "coriander"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "canonical": "cinnamon",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "cinnamon"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "canonical": "parsley",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "parsley"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "canonical": "mint",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "mint"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "chili-powder",
+    "name": "Chili powder",
+    "canonical": "chili powder",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "chili powder"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "canonical": "salt",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "salt"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "sunflower-oil",
+    "name": "Sunflower oil",
+    "canonical": "sunflower oil",
+    "category": "Oils & Fats",
+    "aliases": [
+      "sunflower oil"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "canola-oil",
+    "name": "Canola oil",
+    "canonical": "canola oil",
+    "category": "Oils & Fats",
+    "aliases": [
+      "canola oil"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "peanut-oil",
+    "name": "Peanut oil",
+    "canonical": "peanut oil",
+    "category": "Oils & Fats",
+    "aliases": [
+      "peanut oil"
+    ],
+    "composition": "plant",
+    "allergens": [
+      "peanuts"
+    ],
+    "parent": null
+  },
+  {
+    "id": "rice-vinegar",
+    "name": "Rice vinegar",
+    "canonical": "rice vinegar",
+    "category": "Sauces & Condiments",
+    "aliases": [
+      "rice vinegar"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "coconut-milk",
+    "name": "Coconut milk",
+    "canonical": "coconut milk",
+    "category": "Sauces & Condiments",
+    "aliases": [
+      "coconut milk"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "chicken-broth",
+    "name": "Chicken broth",
+    "canonical": "chicken broth",
+    "category": "Sauces & Condiments",
+    "aliases": [
+      "chicken broth"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "chicken-stock",
+    "name": "Chicken stock",
+    "canonical": "chicken stock",
+    "category": "Sauces & Condiments",
+    "aliases": [
+      "chicken stock"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "chicken-sausage",
+    "name": "Chicken sausage",
+    "canonical": "chicken sausage",
+    "category": "Sauces & Condiments",
+    "aliases": [
+      "chicken sausage"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "canonical": "sugar",
+    "category": "Sweeteners",
+    "aliases": [
+      "sugar"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "lemon-juice",
+    "name": "Lemon Juice",
+    "canonical": "lemon juice",
+    "category": "Fruits",
+    "aliases": [
+      "lemon juice"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "lime-juice",
+    "name": "Lime Juice",
+    "canonical": "lime juice",
+    "category": "Fruits",
+    "aliases": [
+      "lime juice"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "apple-cider-vinegar",
+    "name": "Apple Cider Vinegar",
+    "canonical": "apple cider vinegar",
+    "category": "Sauces & Condiments",
+    "aliases": [
+      "apple cider vinegar"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "vegetable-oil",
+    "name": "Vegetable Oil",
+    "canonical": "vegetable oil",
+    "category": "Oils & Fats",
+    "aliases": [
+      "vegetable oil"
+    ],
+    "composition": null,
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "garlic-powder",
+    "name": "Garlic Powder",
+    "canonical": "garlic powder",
+    "category": "Herbs & Spices",
+    "aliases": [
+      "garlic powder"
+    ],
+    "composition": "plant",
+    "allergens": [],
+    "parent": null
+  },
+  {
+    "id": "sour-cream",
+    "name": "Sour Cream",
+    "canonical": "sour cream",
+    "category": "Dairy",
+    "aliases": [
+      "sour cream"
+    ],
+    "composition": "dairy",
+    "allergens": [
+      "milk"
+    ],
+    "parent": null
+  },
+  {
+    "id": "couscous",
+    "name": "Couscous",
+    "canonical": "couscous",
+    "category": "Grains",
+    "aliases": [
+      "couscous"
+    ],
+    "composition": "plant",
+    "allergens": [
+      "wheat",
+      "gluten"
+    ],
+    "parent": null
+  }
+]

@@ -1,0 +1,5793 @@
+{
+  "response": {
+    "calculated_nutrition": {
+      "totals": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null,
+        "sugar": null
+      },
+      "per_serving": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null,
+        "sugar": null
+      },
+      "known_totals": {
+        "calories": 535.31908,
+        "protein": 99.1439,
+        "carbohydrates": 15.8195,
+        "fat": 35.0546,
+        "fiber": 7.153,
+        "sodium": 1119.36,
+        "sugar": 4.4464
+      },
+      "known_per_serving": {
+        "calories": 267.65954,
+        "protein": 49.57195,
+        "carbohydrates": 7.90975,
+        "fat": 17.5273,
+        "fiber": 3.5765,
+        "sodium": 559.68,
+        "sugar": 2.2232
+      },
+      "coverage": {
+        "calories": 4,
+        "protein": 4,
+        "carbohydrates": 4,
+        "fat": 5,
+        "fiber": 3,
+        "sodium": 4,
+        "sugar": 3
+      },
+      "ingredient_count": 6,
+      "servings": 2,
+      "calculation_version": "nutrition-v1"
+    },
+    "nutrition_status": "partial",
+    "nutrition_sources": [
+      {
+        "ingredient_index": 0,
+        "ingredient": {
+          "original_text": "400.0 grams chicken breast, raw, boneless, skinless",
+          "name": "chicken breast, boneless, skinless",
+          "canonical_name": null,
+          "quantity": 400.0,
+          "unit": "grams",
+          "normalized_unit": "g",
+          "preparation": null,
+          "food_state": "raw",
+          "grams": 400.0,
+          "status": "normalized",
+          "reason": null,
+          "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+        },
+        "status": "calculated",
+        "food": {
+          "source": "usda_fdc",
+          "food_id": "2646170",
+          "description": "Chicken, breast, boneless, skinless, raw",
+          "data_type": "Foundation",
+          "retrieved_at": "2026-09-14T23:30:09.726040+00:00",
+          "food_state": "raw",
+          "match_quality": "exact_name_and_state",
+          "nutrients_per_100g": {
+            "calories": 112.20227,
+            "protein": 22.525,
+            "carbohydrates": 0.0,
+            "fat": 1.934,
+            "fiber": null,
+            "sodium": 65.75,
+            "sugar": null
+          },
+          "nutrient_ids": {
+            "calories": 2048,
+            "protein": 1003,
+            "carbohydrates": 1005,
+            "fat": 1004,
+            "sodium": 1093
+          },
+          "portions": []
+        },
+        "nutrients": {
+          "calories": 448.80908,
+          "protein": 90.1,
+          "carbohydrates": 0.0,
+          "fat": 7.736,
+          "fiber": null,
+          "sodium": 263.0,
+          "sugar": null
+        },
+        "reason": null
+      },
+      {
+        "ingredient_index": 1,
+        "ingredient": {
+          "original_text": "300.0 grams broccoli florets, raw",
+          "name": "broccoli florets",
+          "canonical_name": null,
+          "quantity": 300.0,
+          "unit": "grams",
+          "normalized_unit": "g",
+          "preparation": null,
+          "food_state": "raw",
+          "grams": 300.0,
+          "status": "normalized",
+          "reason": null,
+          "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+        },
+        "status": "calculated",
+        "food": {
+          "source": "usda_fdc",
+          "food_id": "169330",
+          "description": "Broccoli, flower clusters, raw",
+          "data_type": "SR Legacy",
+          "retrieved_at": "2026-09-14T23:30:08.879657+00:00",
+          "food_state": "raw",
+          "match_quality": "exact_name_and_state",
+          "nutrients_per_100g": {
+            "calories": 28.0,
+            "protein": 2.98,
+            "carbohydrates": 5.06,
+            "fat": 0.35,
+            "fiber": 2.3,
+            "sodium": 27.0,
+            "sugar": 1.48
+          },
+          "nutrient_ids": {
+            "calories": 1008,
+            "protein": 1003,
+            "carbohydrates": 1005,
+            "fat": 1004,
+            "fiber": 1079,
+            "sugar": 2000,
+            "sodium": 1093
+          },
+          "portions": []
+        },
+        "nutrients": {
+          "calories": 84.0,
+          "protein": 8.94,
+          "carbohydrates": 15.18,
+          "fat": 1.05,
+          "fiber": 6.9,
+          "sodium": 81.0,
+          "sugar": 4.44
+        },
+        "reason": null
+      },
+      {
+        "ingredient_index": 2,
+        "ingredient": {
+          "original_text": "15.0 grams garlic cloves, minced",
+          "name": "garlic cloves",
+          "canonical_name": null,
+          "quantity": 15.0,
+          "unit": "grams",
+          "normalized_unit": "g",
+          "preparation": "minced",
+          "food_state": null,
+          "grams": 15.0,
+          "status": "normalized",
+          "reason": null,
+          "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+        },
+        "status": "unmatched",
+        "food": null,
+        "nutrients": {
+          "calories": null,
+          "protein": null,
+          "carbohydrates": null,
+          "fat": null,
+          "fiber": null,
+          "sodium": null,
+          "sugar": null
+        },
+        "reason": "No unique food match with the same identity and preparation state."
+      },
+      {
+        "ingredient_index": 3,
+        "ingredient": {
+          "original_text": "28.0 grams olive oil, extra virgin",
+          "name": "olive oil, extra virgin",
+          "canonical_name": null,
+          "quantity": 28.0,
+          "unit": "grams",
+          "normalized_unit": "g",
+          "preparation": null,
+          "food_state": null,
+          "grams": 28.0,
+          "status": "normalized",
+          "reason": null,
+          "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+        },
+        "status": "partial",
+        "food": {
+          "source": "usda_fdc",
+          "food_id": "748608",
+          "description": "Oil, olive, extra virgin",
+          "data_type": "Foundation",
+          "retrieved_at": "2026-09-14T23:30:12.294853+00:00",
+          "food_state": null,
+          "match_quality": "exact_name_and_state",
+          "nutrients_per_100g": {
+            "calories": null,
+            "protein": null,
+            "carbohydrates": null,
+            "fat": 93.7,
+            "fiber": null,
+            "sodium": null,
+            "sugar": null
+          },
+          "nutrient_ids": {
+            "fat": 1085
+          },
+          "portions": [
+            {
+              "unit": "ml",
+              "amount": 100.0,
+              "gram_weight": 90.7,
+              "description": "milliliter"
+            }
+          ]
+        },
+        "nutrients": {
+          "calories": null,
+          "protein": null,
+          "carbohydrates": null,
+          "fat": 26.236,
+          "fiber": null,
+          "sodium": null,
+          "sugar": null
+        },
+        "reason": "The matched food record is missing a required nutrient."
+      },
+      {
+        "ingredient_index": 4,
+        "ingredient": {
+          "original_text": "2.0 grams salt, table",
+          "name": "salt, table",
+          "canonical_name": null,
+          "quantity": 2.0,
+          "unit": "grams",
+          "normalized_unit": "g",
+          "preparation": null,
+          "food_state": null,
+          "grams": 2.0,
+          "status": "normalized",
+          "reason": null,
+          "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+        },
+        "status": "calculated",
+        "food": {
+          "source": "usda_fdc",
+          "food_id": "173468",
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "retrieved_at": "2026-09-14T23:30:08.991976+00:00",
+          "food_state": null,
+          "match_quality": "exact_name_and_state",
+          "nutrients_per_100g": {
+            "calories": 0.0,
+            "protein": 0.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "fiber": 0.0,
+            "sodium": 38758.0,
+            "sugar": 0.0
+          },
+          "nutrient_ids": {
+            "calories": 1008,
+            "protein": 1003,
+            "carbohydrates": 1005,
+            "fat": 1004,
+            "fiber": 1079,
+            "sugar": 2000,
+            "sodium": 1093
+          },
+          "portions": [
+            {
+              "unit": "cup",
+              "amount": 1.0,
+              "gram_weight": 292.0,
+              "description": "cup"
+            },
+            {
+              "unit": "tsp",
+              "amount": 1.0,
+              "gram_weight": 6.0,
+              "description": "tsp"
+            },
+            {
+              "unit": "tbsp",
+              "amount": 1.0,
+              "gram_weight": 18.0,
+              "description": "tbsp"
+            }
+          ]
+        },
+        "nutrients": {
+          "calories": 0.0,
+          "protein": 0.0,
+          "carbohydrates": 0.0,
+          "fat": 0.0,
+          "fiber": 0.0,
+          "sodium": 775.16,
+          "sugar": 0.0
+        },
+        "reason": null
+      },
+      {
+        "ingredient_index": 5,
+        "ingredient": {
+          "original_text": "1.0 grams black pepper, ground",
+          "name": "black pepper, ground",
+          "canonical_name": null,
+          "quantity": 1.0,
+          "unit": "grams",
+          "normalized_unit": "g",
+          "preparation": null,
+          "food_state": null,
+          "grams": 1.0,
+          "status": "normalized",
+          "reason": null,
+          "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+        },
+        "status": "calculated",
+        "food": {
+          "source": "usda_fdc",
+          "food_id": "170931",
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "retrieved_at": "2026-09-14T23:30:10.081910+00:00",
+          "food_state": null,
+          "match_quality": "exact_name_and_state",
+          "nutrients_per_100g": {
+            "calories": 251.0,
+            "protein": 10.39,
+            "carbohydrates": 63.95,
+            "fat": 3.26,
+            "fiber": 25.3,
+            "sodium": 20.0,
+            "sugar": 0.64
+          },
+          "nutrient_ids": {
+            "calories": 1008,
+            "protein": 1003,
+            "carbohydrates": 1005,
+            "fat": 1004,
+            "fiber": 1079,
+            "sugar": 2000,
+            "sodium": 1093
+          },
+          "portions": []
+        },
+        "nutrients": {
+          "calories": 2.51,
+          "protein": 0.1039,
+          "carbohydrates": 0.6395,
+          "fat": 0.0326,
+          "fiber": 0.253,
+          "sodium": 0.2,
+          "sugar": 0.0064
+        },
+        "reason": null
+      }
+    ],
+    "unmatched_ingredients": [
+      "15.0 grams garlic cloves, minced"
+    ],
+    "constraint_results": [
+      {
+        "constraint": "maximum_calories",
+        "requested": 650.0,
+        "actual": null,
+        "unit": "kcal",
+        "status": "unknown",
+        "passed": null,
+        "difference": null,
+        "reason": "Insufficient calculated nutrient coverage; the AI estimate is not used.",
+        "evidence": [
+          "usda_fdc:2646170",
+          "usda_fdc:169330",
+          "usda_fdc:748608",
+          "usda_fdc:173468",
+          "usda_fdc:170931"
+        ]
+      },
+      {
+        "constraint": "minimum_protein",
+        "requested": 35.0,
+        "actual": null,
+        "unit": "g",
+        "status": "unknown",
+        "passed": null,
+        "difference": null,
+        "reason": "Insufficient calculated nutrient coverage; the AI estimate is not used.",
+        "evidence": [
+          "usda_fdc:2646170",
+          "usda_fdc:169330",
+          "usda_fdc:748608",
+          "usda_fdc:173468",
+          "usda_fdc:170931"
+        ]
+      },
+      {
+        "constraint": "maximum_cooking_time",
+        "requested": 30.0,
+        "actual": 15.0,
+        "unit": "minutes",
+        "status": "passed",
+        "passed": true,
+        "difference": -15.0,
+        "reason": "At or below the inclusive maximum.",
+        "evidence": [
+          "recipe:estimated_cook_time"
+        ]
+      }
+    ],
+    "overall_constraint_status": "partially_verified",
+    "potential_allergen_warnings": [],
+    "constraint_version": "constraints-v1",
+    "recipe": {
+      "title": "Garlic Saut\u00e9ed Chicken and Broccoli",
+      "description": "A quick and healthy stir-fry featuring tender chicken breast and crisp broccoli florets saut\u00e9ed with fragrant garlic in olive oil.",
+      "ingredients": [
+        {
+          "name": "chicken breast, raw, boneless, skinless",
+          "quantity": 400.0,
+          "unit": "grams"
+        },
+        {
+          "name": "broccoli florets, raw",
+          "quantity": 300.0,
+          "unit": "grams"
+        },
+        {
+          "name": "garlic cloves, minced",
+          "quantity": 15.0,
+          "unit": "grams"
+        },
+        {
+          "name": "olive oil, extra virgin",
+          "quantity": 28.0,
+          "unit": "grams"
+        },
+        {
+          "name": "salt, table",
+          "quantity": 2.0,
+          "unit": "grams"
+        },
+        {
+          "name": "black pepper, ground",
+          "quantity": 1.0,
+          "unit": "grams"
+        }
+      ],
+      "instructions": [
+        "Cut the chicken breast into bite-sized pieces and season with salt and pepper.",
+        "Cut the broccoli into small, even-sized florets.",
+        "Heat the olive oil in a large skillet or wok over medium-high heat.",
+        "Add the chicken to the skillet and cook until browned and cooked through, about 6-8 minutes.",
+        "Add the broccoli florets and minced garlic to the pan.",
+        "Stir-fry for 5-7 minutes, or until the broccoli is tender-crisp and bright green.",
+        "Serve immediately."
+      ],
+      "prep_time": 10,
+      "cook_time": 15,
+      "total_time": 25,
+      "servings": 2,
+      "cuisine": "American",
+      "difficulty": "beginner",
+      "dietary_tags": [
+        "high-protein",
+        "gluten-free",
+        "dairy-free"
+      ],
+      "potential_allergens": [],
+      "nutrition": {
+        "calories": 365.0,
+        "protein": 46.0,
+        "carbohydrates": 10.0,
+        "fat": 15.0,
+        "fiber": 4.0,
+        "sodium": 480.0
+      },
+      "id": "a25dd909-98b6-4259-a13d-05867cdd327e",
+      "recipe_version_id": "6b1827d2-efef-423e-a99c-e26ad7f54a94",
+      "validation_status": "unverified",
+      "nutrition_source": "ai_estimate",
+      "nutrition_basis": "per_serving"
+    },
+    "warnings": [
+      "Legacy recipe.nutrition contains AI estimates; calculated_nutrition is independent food-data arithmetic.",
+      "Generic food data does not establish allergen safety. Check ingredients and product labels.",
+      "Additional ingredients may be included; review the complete ingredient list."
+    ],
+    "metadata": {
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "recipe-v4",
+      "schema_version": "1.1"
+    },
+    "trace_id": "2db6b441-ae77-404d-9db5-8aeee65f2c92"
+  },
+  "http_events": [
+    {
+      "operation": "search",
+      "query": "garlic",
+      "http": 200,
+      "candidates": [
+        {
+          "food_id": 1104647,
+          "description": "Garlic, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167939,
+          "description": "Garlic bread, frozen",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171325,
+          "description": "Spices, garlic powder",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170789,
+          "description": "PIZZA HUT, breadstick, parmesan garlic",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170788,
+          "description": "Fast foods, breadstick, soft, prepared with garlic and parmesan cheese",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168318,
+          "description": "HORMEL ALWAYS TENDER, Pork Loin Filets, Lemon Garlic-Flavored",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167782,
+          "description": "Abiyuch, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        }
+      ],
+      "elapsed_seconds": 0.887
+    },
+    {
+      "operation": "search",
+      "query": "broccoli cluster flower raw",
+      "http": 200,
+      "candidates": [
+        {
+          "food_id": 169330,
+          "description": "Broccoli, flower clusters, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": true
+        },
+        {
+          "food_id": 169270,
+          "description": "Pumpkin flowers, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168459,
+          "description": "Sesbania flower, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 747447,
+          "description": "Broccoli, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170379,
+          "description": "Broccoli, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169232,
+          "description": "Gourd, white-flowered (calabash), raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170381,
+          "description": "Broccoli raab, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169404,
+          "description": "Broccoli, chinese, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169329,
+          "description": "Broccoli, leaves, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169331,
+          "description": "Broccoli, stalks, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169368,
+          "description": "Sesbania flower, cooked, steamed, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170119,
+          "description": "Pumpkin, flowers, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169281,
+          "description": "Sesbania flower, cooked, steamed, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169271,
+          "description": "Pumpkin flowers, cooked, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170382,
+          "description": "Broccoli raab, cooked",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169353,
+          "description": "Gourd, white-flowered (calabash), cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169392,
+          "description": "Broccoli, chinese, cooked",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169233,
+          "description": "Gourd, white-flowered (calabash), cooked, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167782,
+          "description": "Abiyuch, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171697,
+          "description": "Apricots, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169203,
+          "description": "Arrowhead, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168490,
+          "description": "Arrowroot, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169387,
+          "description": "Arugula, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168389,
+          "description": "Asparagus, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173944,
+          "description": "Bananas, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2685576,
+          "description": "Beets, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169145,
+          "description": "Beets, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173946,
+          "description": "Blackberries, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2727581,
+          "description": "Blackberries, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2346411,
+          "description": "Blueberries, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171711,
+          "description": "Blueberries, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170481,
+          "description": "Borage, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171714,
+          "description": "Breadfruit, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169975,
+          "description": "Cabbage, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169981,
+          "description": "Cardoon, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170393,
+          "description": "Carrots, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169985,
+          "description": "Cassava, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2685573,
+          "description": "Cauliflower, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169986,
+          "description": "Cauliflower, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170400,
+          "description": "Celeriac, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2346405,
+          "description": "Celery, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169988,
+          "description": "Celery, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169990,
+          "description": "Celtuce, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173953,
+          "description": "Cherimoya, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169994,
+          "description": "Chives, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168195,
+          "description": "Clementines, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170406,
+          "description": "Collards, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2685574,
+          "description": "Collards, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169219,
+          "description": "Cornsalad, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171721,
+          "description": "Crabapples, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171722,
+          "description": "Cranberries, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170076,
+          "description": "Dock, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169228,
+          "description": "Eggplant, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2685577,
+          "description": "Eggplant, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171727,
+          "description": "Elderberries, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168412,
+          "description": "Endive, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169398,
+          "description": "Epazote, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170078,
+          "description": "Eppaw, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168176,
+          "description": "Feijoa, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173021,
+          "description": "Figs, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 1104647,
+          "description": "Garlic, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169230,
+          "description": "Garlic, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173030,
+          "description": "Gooseberries, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2758977,
+          "description": "Grapefruit, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174687,
+          "description": "Jackfruit, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168151,
+          "description": "Jujube, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168421,
+          "description": "Kale, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 323505,
+          "description": "Kale, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168424,
+          "description": "Kohlrabi, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168154,
+          "description": "Kumquats, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169244,
+          "description": "Lambsquarters, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172420,
+          "description": "Lentils, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168155,
+          "description": "Limes, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169086,
+          "description": "Litchis, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169089,
+          "description": "Longans, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169908,
+          "description": "Loquats, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169910,
+          "description": "Mangos, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169702,
+          "description": "Millet, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169913,
+          "description": "Mulberries, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169914,
+          "description": "Nectarines, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 327357,
+          "description": "Nectarines, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168571,
+          "description": "Nopales, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169915,
+          "description": "Oheloberries, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169260,
+          "description": "Okra, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170000,
+          "description": "Onions, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169926,
+          "description": "Papayas, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170417,
+          "description": "Parsnips, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2747659,
+          "description": "Parsnips, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2515376,
+          "description": "Peanuts, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169118,
+          "description": "Pears, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2346398,
+          "description": "Pineapple, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169949,
+          "description": "Plums, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169134,
+          "description": "Pomegranates, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167754,
+          "description": "Pummelo, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168448,
+          "description": "Pumpkin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169274,
+          "description": "Purslane, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168163,
+          "description": "Quinces, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168564,
+          "description": "Radicchio, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2747664,
+          "description": "Radicchio, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169276,
+          "description": "Radishes, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        }
+      ],
+      "elapsed_seconds": 1.197
+    },
+    {
+      "operation": "search",
+      "query": "extra oil olive virgin",
+      "http": 200,
+      "candidates": [
+        {
+          "food_id": 748608,
+          "description": "Oil, olive, extra virgin",
+          "data_type": "Foundation",
+          "exact_identity": true
+        },
+        {
+          "food_id": 1750351,
+          "description": "Oil, olive, extra light",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167737,
+          "description": "Oil, corn, peanut, and olive",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171413,
+          "description": "Oil, olive, salad or cooking",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171443,
+          "description": "Mayonnaise, reduced fat, with olive oil",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169094,
+          "description": "Olives, ripe, canned (small-extra large)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2747652,
+          "description": "Anchovies, canned in olive oil, with salt, drained",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 748278,
+          "description": "Oil, canola",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172336,
+          "description": "Oil, canola",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171031,
+          "description": "Oil, almond",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173573,
+          "description": "Oil, avocado",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171428,
+          "description": "Oil, babassu",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171412,
+          "description": "Oil, coconut",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 330458,
+          "description": "Oil, coconut",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 748323,
+          "description": "Oil, corn",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171028,
+          "description": "Oil, grapeseed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171427,
+          "description": "Oil, hazelnut",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172337,
+          "description": "Oil, mustard",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173576,
+          "description": "Oil, oat",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171015,
+          "description": "Oil, palm",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 1750348,
+          "description": "Oil, peanut",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171423,
+          "description": "Oil, poppyseed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 1750350,
+          "description": "Oil, safflower",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171429,
+          "description": "Oil, sheanut",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 748366,
+          "description": "Oil, soybean",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 1750349,
+          "description": "Oil, sunflower",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171425,
+          "description": "Oil, teaseed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171424,
+          "description": "Oil, tomatoseed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171030,
+          "description": "Oil, walnut",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172926,
+          "description": "Olive loaf, pork",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173412,
+          "description": "Butter oil, anhydrous",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172340,
+          "description": "Fish oil, herring",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172341,
+          "description": "Fish oil, menhaden",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172343,
+          "description": "Fish oil, salmon",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173578,
+          "description": "Fish oil, sardine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171032,
+          "description": "Oil, apricot kernel",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171421,
+          "description": "Oil, cocoa butter",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169867,
+          "description": "Oil, corn and canola",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173563,
+          "description": "Oil, cupu assu",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172335,
+          "description": "Oil, nutmeg butter",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171013,
+          "description": "Oil, rice bran",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171426,
+          "description": "Oil, soybean lecithin",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173570,
+          "description": "Oil, ucuhuba butter",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171014,
+          "description": "Oil, wheat germ",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172360,
+          "description": "Oil, industrial, canola (partially hydrogenated) oil for deep fat frying",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168194,
+          "description": "Pineapple, raw, extra sweet variety",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174290,
+          "description": "Tofu, extra firm, prepared with nigari",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169851,
+          "description": "OLIVE GARDEN, lasagna classico",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173577,
+          "description": "Fish oil, cod liver",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171024,
+          "description": "Oil, cottonseed, salad or cooking",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167702,
+          "description": "Oil, flaxseed, cold pressed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171410,
+          "description": "Oil, peanut, salad or cooking",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171016,
+          "description": "Oil, sesame, salad or cooking",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171411,
+          "description": "Oil, soybean, salad or cooking",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172370,
+          "description": "Oil, vegetable, soybean, refined",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171422,
+          "description": "Vegetable oil, palm kernel",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171027,
+          "description": "Oil, safflower, salad or cooking, high oleic (primary safflower oil of commerce)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168032,
+          "description": "Oil, walrus (Alaska Native)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173595,
+          "description": "Oil, industrial, coconut, principal uses candy coatings, oil sprays, roasting nuts",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172720,
+          "description": "Cookies, chocolate sandwich, with extra creme filling",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173881,
+          "description": "Ham, smoked, extra lean, low sodium",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172462,
+          "description": "MORI-NU, Tofu, silken, extra firm",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175235,
+          "description": "Vitasoy USA Azumaya, Extra Firm Tofu",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168085,
+          "description": "OLIVE GARDEN, spaghetti with meat sauce",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169852,
+          "description": "OLIVE GARDEN, spaghetti with pomodoro sauce",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 332791,
+          "description": "Olives, green, Manzanilla, stuffed with pimiento",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169096,
+          "description": "Olives, pickled, canned or bottled, green",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172342,
+          "description": "Fish oil, menhaden, fully hydrogenated",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171042,
+          "description": "Oil, industrial, canola, high oleic",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171441,
+          "description": "Oil, industrial, cottonseed, fully hydrogenated",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172357,
+          "description": "Oil, industrial, mid-oleic, sunflower",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171440,
+          "description": "Oil, industrial, soy, fully hydrogenated",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171438,
+          "description": "Oil, industrial, soy, low linolenic",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171430,
+          "description": "Oil, PAM cooking spray, original",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171025,
+          "description": "Oil, sunflower, linoleic, (approx. 65%)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172328,
+          "description": "Oil, sunflower, linoleic, (partially hydrogenated)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173566,
+          "description": "Shortening industrial, lard and vegetable oil",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172327,
+          "description": "Shortening, household, lard and vegetable oil",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168981,
+          "description": "Oil, beluga, whale (Alaska Native)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167641,
+          "description": "Oil, spotted seal (Alaska Native)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167625,
+          "description": "Oil, whale, bowhead (Alaska Native)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172431,
+          "description": "Peanuts, spanish, oil-roasted, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172433,
+          "description": "Peanuts, valencia, oil-roasted, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174264,
+          "description": "Peanuts, virginia, oil-roasted, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168035,
+          "description": "Willow, leaves in oil (Alaska Native)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168092,
+          "description": "Ham, turkey, sliced, extra lean, prepackaged or deli",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170343,
+          "description": "KFC, Fried Chicken, EXTRA CRISPY, Skin and Breading",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172464,
+          "description": "MORI-NU, Tofu, silken, lite extra firm",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173762,
+          "description": "Vitasoy USA, Organic Nasoya Extra Firm Tofu",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169037,
+          "description": "OLIVE GARDEN, cheese ravioli with marinara sauce",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169858,
+          "description": "OLIVE GARDEN, chicken parmigiana without pasta",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169095,
+          "description": "Olives, ripe, canned (jumbo-super colossal)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171433,
+          "description": "Oil, cooking and salad, ENOVA, 80% diglycerides",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171442,
+          "description": "Oil, flaxseed, contains added sliced flaxseed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171439,
+          "description": "Oil, industrial, soy, ultra low linolenic",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171012,
+          "description": "Oil, soybean, salad or cooking, (partially hydrogenated)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172338,
+          "description": "Oil, sunflower, high oleic (70% and over)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171017,
+          "description": "Oil, sunflower, linoleic (less than 60%)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171417,
+          "description": "Salad dressing, home recipe, vinegar and oil",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167691,
+          "description": "Vegetable oil-butter spread, reduced calorie",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        }
+      ],
+      "elapsed_seconds": 1.256
+    },
+    {
+      "operation": "search",
+      "query": "boneless breast chicken raw skinless",
+      "http": 200,
+      "candidates": [
+        {
+          "food_id": 2646170,
+          "description": "Chicken, breast, boneless, skinless, raw",
+          "data_type": "Foundation",
+          "exact_identity": true
+        },
+        {
+          "food_id": 2646171,
+          "description": "Chicken, thigh, boneless, skinless, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171077,
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171509,
+          "description": "Chicken, broilers or fryers, breast, skinless, boneless, meat only, with added solution, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171140,
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 331960,
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171534,
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, grilled",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172831,
+          "description": "Ruffed Grouse, breast meat, skinless, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173634,
+          "description": "Canada Goose, breast meat only, skinless, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171535,
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, with added solution, cooked, braised",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171536,
+          "description": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, with added solution, cooked, grilled",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2727569,
+          "description": "Chicken, breast, meat and skin, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169187,
+          "description": "Pork, Shoulder breast, boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174392,
+          "description": "Veal, breast, whole, boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171474,
+          "description": "Chicken, broilers or fryers, breast, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2646168,
+          "description": "Pork, loin, boneless, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2646169,
+          "description": "Pork, loin, tenderloin, boneless, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2646174,
+          "description": "Beef, chuck, roast, boneless, choice, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2646175,
+          "description": "Beef, flank, steak, boneless, choice, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2646172,
+          "description": "Beef, ribeye, steak, boneless, choice, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171116,
+          "description": "Chicken, ground, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174474,
+          "description": "Pheasant, breast, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172829,
+          "description": "Quail, breast, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174605,
+          "description": "Sausage, chicken, beef, pork, skinless, smoked",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2759004,
+          "description": "Lunchmeat, chicken breast, sliced",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2646173,
+          "description": "Beef, round, top round, boneless, choice, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174469,
+          "description": "Duck, wild, breast, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171098,
+          "description": "Turkey, whole, breast, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174465,
+          "description": "Chicken, capons, giblets, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2514746,
+          "description": "Chicken, ground, with additives, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172396,
+          "description": "Chicken, roasting, giblets, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173641,
+          "description": "Chicken, stewing, giblets, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169188,
+          "description": "Pork, Shoulder breast, boneless, separable lean and fat, cooked, broiled",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171515,
+          "description": "Chicken breast tenders, breaded, uncooked",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174608,
+          "description": "Chicken breast, roll, oven-roasted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171093,
+          "description": "Turkey, all classes, breast, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171528,
+          "description": "Turkey, retail parts, breast, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174515,
+          "description": "Turkey, retail parts, breast, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171057,
+          "description": "Chicken, broilers or fryers, giblets, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173645,
+          "description": "Chicken, capons, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2727566,
+          "description": "Chicken, drumstick, meat and skin, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171456,
+          "description": "Chicken, gizzard, all classes, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171458,
+          "description": "Chicken, heart, all classes, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171060,
+          "description": "Chicken, liver, all classes, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173636,
+          "description": "Chicken, roasting, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172855,
+          "description": "Chicken, skin (drumsticks and thighs), raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172400,
+          "description": "Chicken, stewing, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172402,
+          "description": "Chicken, stewing, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2727567,
+          "description": "Chicken, thigh, meat and skin, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2727568,
+          "description": "Chicken, wing, meat and skin, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174393,
+          "description": "Veal, breast, whole, boneless, separable lean and fat, cooked, braised",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174396,
+          "description": "Veal, breast, whole, boneless, separable lean only, cooked, braised",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169186,
+          "description": "Pork, Leg Cap Steak, boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168369,
+          "description": "Pork, Shoulder petite tender, boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171503,
+          "description": "Turkey roast, boneless, frozen, seasoned, light and dark meat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172643,
+          "description": "Veal, leg, top round, cap off, cutlet, boneless, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171514,
+          "description": "Chicken breast tenders, breaded, cooked, microwaved",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172945,
+          "description": "Oscar Mayer, Chicken Breast (honey glazed)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174394,
+          "description": "Veal, breast, plate half, boneless, separable lean and fat, cooked, braised",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174395,
+          "description": "Veal, breast, point half, boneless, separable lean and fat, cooked, braised",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171447,
+          "description": "Chicken, broilers or fryers, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171052,
+          "description": "Chicken, broilers or fryers, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171468,
+          "description": "Chicken, broilers or fryers, separable fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171452,
+          "description": "Chicken, broilers or fryers, skin only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174438,
+          "description": "Lamb, New Zealand, imported, chump, boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172631,
+          "description": "Lamb, New Zealand, imported, flap, boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174441,
+          "description": "Lamb, New Zealand, imported, flap, boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172635,
+          "description": "Lamb, New Zealand, imported, loin, boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174452,
+          "description": "Lamb, New Zealand, imported, loin, boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168371,
+          "description": "Pork, Leg sirloin tip roast, boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170718,
+          "description": "Fast foods, chicken, breaded and fried, boneless pieces, plain",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172611,
+          "description": "Lamb, New Zealand, imported, breast, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171130,
+          "description": "Turkey, retail parts, breast, meat and skin, with added solution, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174513,
+          "description": "Turkey, retail parts, breast, meat only, with added solution, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168314,
+          "description": "Pork, fresh, loin, top loin (roasts), boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168315,
+          "description": "Pork, fresh, loin, top loin (roasts), boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173874,
+          "description": "Chicken breast, deli, rotisserie seasoned, sliced, prepackaged",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172962,
+          "description": "Chicken breast, fat-free, mesquite flavor, sliced",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172963,
+          "description": "Chicken breast, oven-roasted, fat-free, sliced",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171125,
+          "description": "Chicken, broiler, rotisserie, BBQ, breast, meat and skin",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171445,
+          "description": "Chicken, broiler, rotisserie, BBQ, breast, meat only",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169194,
+          "description": "Pork, fresh, loin, blade (chops or roasts), boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168286,
+          "description": "Pork, fresh, loin, center loin (chops), boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168263,
+          "description": "Pork, fresh, loin, center loin (chops), boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168308,
+          "description": "Pork, fresh, loin, sirloin (chops or roasts), boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167901,
+          "description": "Pork, fresh, loin, sirloin (chops or roasts), boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167839,
+          "description": "Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168251,
+          "description": "Pork, fresh, loin, top loin (chops), boneless, separable lean only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171469,
+          "description": "Chicken, broilers or fryers, back, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171073,
+          "description": "Chicken, broilers or fryers, back, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172373,
+          "description": "Chicken, broilers or fryers, drumstick, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172378,
+          "description": "Chicken, broilers or fryers, leg, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173619,
+          "description": "Chicken, broilers or fryers, leg, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172382,
+          "description": "Chicken, broilers or fryers, neck, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173623,
+          "description": "Chicken, broilers or fryers, neck, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172385,
+          "description": "Chicken, broilers or fryers, thigh, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172390,
+          "description": "Chicken, broilers or fryers, wing, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173632,
+          "description": "Chicken, broilers or fryers, wing, meat only, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172406,
+          "description": "Chicken, capons, meat and skin and giblets and neck, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171507,
+          "description": "Chicken, cornish game hens, meat and skin, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        }
+      ],
+      "elapsed_seconds": 1.35
+    },
+    {
+      "operation": "search",
+      "query": "salt table",
+      "http": 200,
+      "candidates": [
+        {
+          "food_id": 173468,
+          "description": "Salt, table",
+          "data_type": "SR Legacy",
+          "exact_identity": true
+        },
+        {
+          "food_id": 746775,
+          "description": "Salt, table, iodized",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169578,
+          "description": "Syrups, table blends, pancake",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173185,
+          "description": "Alcoholic beverage, wine, table, all",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173190,
+          "description": "Alcoholic beverage, wine, table, red",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174837,
+          "description": "Alcoholic beverage, wine, table, white",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167584,
+          "description": "Syrups, table blends, pancake, with butter",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173191,
+          "description": "Alcoholic Beverage, wine, table, red, Barbera",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173208,
+          "description": "Alcoholic Beverage, wine, table, red, Burgundy",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174840,
+          "description": "Alcoholic Beverage, wine, table, red, Carignane",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173194,
+          "description": "Alcoholic Beverage, wine, table, red, Claret",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171872,
+          "description": "Alcoholic Beverage, wine, table, red, Gamay",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174838,
+          "description": "Alcoholic Beverage, wine, table, red, Lemberger",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171925,
+          "description": "Alcoholic Beverage, wine, table, red, Merlot",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174109,
+          "description": "Alcoholic Beverage, wine, table, red, Mouvedre",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174839,
+          "description": "Alcoholic Beverage, wine, table, red, Sangiovese",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174836,
+          "description": "Alcoholic Beverage, wine, table, red, Syrah",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173192,
+          "description": "Alcoholic Beverage, wine, table, red, Zinfandel",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174110,
+          "description": "Alcoholic beverage, wine, table, white, Chardonnay",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174843,
+          "description": "Alcoholic beverage, wine, table, white, Gewurztraminer",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174849,
+          "description": "Alcoholic beverage, wine, table, white, Muscat",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173200,
+          "description": "Alcoholic beverage, wine, table, white, Riesling",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174845,
+          "description": "Alcoholic beverage, wine, table, white, Semillon",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168839,
+          "description": "Syrups, table blends, corn, refiner, and sugar",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169577,
+          "description": "Syrups, table blends, pancake, reduced-calorie",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168838,
+          "description": "Syrups, table blends, pancake, with 2% maple",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174834,
+          "description": "Alcoholic Beverage, wine, table, red, Cabernet Franc",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174833,
+          "description": "Alcoholic Beverage, wine, table, red, Cabernet Sauvignon",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173193,
+          "description": "Alcoholic Beverage, wine, table, red, Petite Sirah",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174835,
+          "description": "Alcoholic Beverage, wine, table, red, Pinot Noir",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173195,
+          "description": "Alcoholic beverage, wine, table, white, Chenin Blanc",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173196,
+          "description": "Alcoholic beverage, wine, table, white, Fume Blanc",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173202,
+          "description": "Alcoholic beverage, wine, table, white, late harvest",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173198,
+          "description": "Alcoholic beverage, wine, table, white, Muller Thurgau",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174848,
+          "description": "Alcoholic beverage, wine, table, white, Pinot Blanc",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173201,
+          "description": "Alcoholic beverage, wine, table, white, Sauvignon Blanc",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170857,
+          "description": "Cream, fluid, light (coffee cream or table cream)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174844,
+          "description": "Alcoholic beverage, wine, table, white, late harvest, Gewurztraminer",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174841,
+          "description": "Alcoholic beverage, wine, table, white, Pinot Gris (Grigio)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170646,
+          "description": "Syrups, table blends, pancake, with 2% maple, with added potassium",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173410,
+          "description": "Butter, salted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 790508,
+          "description": "Butter, stick, salted",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173411,
+          "description": "Butter, whipped, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173430,
+          "description": "Butter, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169891,
+          "description": "Cabbage, mustard, salted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168149,
+          "description": "Fish, mackerel, salted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168129,
+          "description": "Jellyfish, dried, salted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170527,
+          "description": "Pumpkin, canned, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170543,
+          "description": "Taro, cooked, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 167773,
+          "description": "Applesauce, canned, sweetened, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173581,
+          "description": "Butter, light, stick, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169391,
+          "description": "Cauliflower, green, cooked, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175059,
+          "description": "Crackers, wheat, low salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170097,
+          "description": "Mushrooms, shiitake, cooked, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169388,
+          "description": "Nopales, cooked, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170112,
+          "description": "Potatoes, baked, flesh, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168450,
+          "description": "Pumpkin, canned, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173147,
+          "description": "Snacks, pita chips, salted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173142,
+          "description": "Snacks, plantain chips, salted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168486,
+          "description": "Taro, cooked, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170135,
+          "description": "Taro, shoots, cooked, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170136,
+          "description": "Taro, tahitian, cooked, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174280,
+          "description": "Tofu, salted and fermented (fuyu)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168553,
+          "description": "Tree fern, cooked, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171696,
+          "description": "Applesauce, canned, sweetened, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168493,
+          "description": "Arrowhead, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169313,
+          "description": "Asparagus, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168128,
+          "description": "Beans, baked, canned, no salt added",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168506,
+          "description": "Beets, cooked, boiled. drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168509,
+          "description": "Borage, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168510,
+          "description": "Broccoli, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172344,
+          "description": "Butter, light, stick, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169334,
+          "description": "Butterbur, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169338,
+          "description": "Cardoon, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169339,
+          "description": "Carrots, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168520,
+          "description": "Cauliflower, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169390,
+          "description": "Cauliflower, green, cooked, no salt added",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169341,
+          "description": "Celeriac, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169342,
+          "description": "Celery, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171676,
+          "description": "Cereals, WHEATENA, cooked with water, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168523,
+          "description": "Collards, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172823,
+          "description": "Crackers, whole-wheat, low salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169371,
+          "description": "Dock, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169352,
+          "description": "Eggplant, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174190,
+          "description": "Fish, cod, Atlantic, dried and salted",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169355,
+          "description": "Kale, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169357,
+          "description": "Kohlrabi, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168534,
+          "description": "Lambsquarters, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168437,
+          "description": "Mushrooms, shiitake, cooked, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170098,
+          "description": "Okra, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170100,
+          "description": "Onions, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170508,
+          "description": "Parsnips, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169751,
+          "description": "Pasta, cooked, enriched, with added salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172014,
+          "description": "Pasta, cooked, unenriched, with added salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174265,
+          "description": "Peanut butter, chunk style, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172431,
+          "description": "Peanuts, spanish, oil-roasted, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172433,
+          "description": "Peanuts, valencia, oil-roasted, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174264,
+          "description": "Peanuts, virginia, oil-roasted, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168287,
+          "description": "Pork, cured, salt pork, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170111,
+          "description": "Potatoes, baked, flesh and skin, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        }
+      ],
+      "elapsed_seconds": 0.524
+    },
+    {
+      "operation": "details",
+      "food_id": "169330",
+      "http": 200,
+      "description": "Broccoli, flower clusters, raw",
+      "data_type": "SR Legacy",
+      "nutrients": [
+        {
+          "id": 2045,
+          "name": "Proximates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1051,
+          "name": "Water",
+          "unit": "g",
+          "amount": 90.69
+        },
+        {
+          "id": 1008,
+          "name": "Energy",
+          "unit": "kcal",
+          "amount": 28.0
+        },
+        {
+          "id": 1062,
+          "name": "Energy",
+          "unit": "kJ",
+          "amount": 118.0
+        },
+        {
+          "id": 1003,
+          "name": "Protein",
+          "unit": "g",
+          "amount": 2.98
+        },
+        {
+          "id": 1004,
+          "name": "Total lipid (fat)",
+          "unit": "g",
+          "amount": 0.35
+        },
+        {
+          "id": 1007,
+          "name": "Ash",
+          "unit": "g",
+          "amount": 0.92
+        },
+        {
+          "id": 2039,
+          "name": "Carbohydrates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1005,
+          "name": "Carbohydrate, by difference",
+          "unit": "g",
+          "amount": 5.06
+        },
+        {
+          "id": 1079,
+          "name": "Fiber, total dietary",
+          "unit": "g",
+          "amount": 2.3
+        },
+        {
+          "id": 2000,
+          "name": "Total Sugars",
+          "unit": "g",
+          "amount": 1.48
+        },
+        {
+          "id": 2043,
+          "name": "Minerals",
+          "unit": "mg",
+          "amount": null
+        },
+        {
+          "id": 1087,
+          "name": "Calcium, Ca",
+          "unit": "mg",
+          "amount": 48.0
+        },
+        {
+          "id": 1089,
+          "name": "Iron, Fe",
+          "unit": "mg",
+          "amount": 0.88
+        },
+        {
+          "id": 1090,
+          "name": "Magnesium, Mg",
+          "unit": "mg",
+          "amount": 25.0
+        },
+        {
+          "id": 1091,
+          "name": "Phosphorus, P",
+          "unit": "mg",
+          "amount": 66.0
+        },
+        {
+          "id": 1092,
+          "name": "Potassium, K",
+          "unit": "mg",
+          "amount": 325.0
+        },
+        {
+          "id": 1093,
+          "name": "Sodium, Na",
+          "unit": "mg",
+          "amount": 27.0
+        },
+        {
+          "id": 1095,
+          "name": "Zinc, Zn",
+          "unit": "mg",
+          "amount": 0.4
+        },
+        {
+          "id": 1098,
+          "name": "Copper, Cu",
+          "unit": "mg",
+          "amount": 0.045
+        },
+        {
+          "id": 1101,
+          "name": "Manganese, Mn",
+          "unit": "mg",
+          "amount": 0.229
+        },
+        {
+          "id": 1103,
+          "name": "Selenium, Se",
+          "unit": "\u00b5g",
+          "amount": 3.0
+        },
+        {
+          "id": 2046,
+          "name": "Vitamins and Other Components",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1162,
+          "name": "Vitamin C, total ascorbic acid",
+          "unit": "mg",
+          "amount": 93.2
+        },
+        {
+          "id": 1165,
+          "name": "Thiamin",
+          "unit": "mg",
+          "amount": 0.065
+        },
+        {
+          "id": 1166,
+          "name": "Riboflavin",
+          "unit": "mg",
+          "amount": 0.119
+        },
+        {
+          "id": 1167,
+          "name": "Niacin",
+          "unit": "mg",
+          "amount": 0.638
+        },
+        {
+          "id": 1170,
+          "name": "Pantothenic acid",
+          "unit": "mg",
+          "amount": 0.535
+        },
+        {
+          "id": 1175,
+          "name": "Vitamin B-6",
+          "unit": "mg",
+          "amount": 0.159
+        },
+        {
+          "id": 1177,
+          "name": "Folate, total",
+          "unit": "\u00b5g",
+          "amount": 71.0
+        },
+        {
+          "id": 1186,
+          "name": "Folic acid",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1187,
+          "name": "Folate, food",
+          "unit": "\u00b5g",
+          "amount": 71.0
+        },
+        {
+          "id": 1190,
+          "name": "Folate, DFE",
+          "unit": "\u00b5g",
+          "amount": 71.0
+        },
+        {
+          "id": 1178,
+          "name": "Vitamin B-12",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1246,
+          "name": "Vitamin B-12, added",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1105,
+          "name": "Retinol",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1104,
+          "name": "Vitamin A, IU",
+          "unit": "IU",
+          "amount": 3000.0
+        },
+        {
+          "id": 1110,
+          "name": "Vitamin D (D2 + D3), International Units",
+          "unit": "IU",
+          "amount": 0.0
+        },
+        {
+          "id": 1114,
+          "name": "Vitamin D (D2 + D3)",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 2044,
+          "name": "Lipids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1258,
+          "name": "Fatty acids, total saturated",
+          "unit": "g",
+          "amount": 0.054
+        },
+        {
+          "id": 1265,
+          "name": "SFA 16:0",
+          "unit": "g",
+          "amount": 0.047
+        },
+        {
+          "id": 1266,
+          "name": "SFA 18:0",
+          "unit": "g",
+          "amount": 0.007
+        },
+        {
+          "id": 1292,
+          "name": "Fatty acids, total monounsaturated",
+          "unit": "g",
+          "amount": 0.024
+        },
+        {
+          "id": 1268,
+          "name": "MUFA 18:1",
+          "unit": "g",
+          "amount": 0.024
+        },
+        {
+          "id": 1293,
+          "name": "Fatty acids, total polyunsaturated",
+          "unit": "g",
+          "amount": 0.167
+        },
+        {
+          "id": 1269,
+          "name": "PUFA 18:2",
+          "unit": "g",
+          "amount": 0.038
+        },
+        {
+          "id": 1270,
+          "name": "PUFA 18:3",
+          "unit": "g",
+          "amount": 0.129
+        },
+        {
+          "id": 1257,
+          "name": "Fatty acids, total trans",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1253,
+          "name": "Cholesterol",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 2042,
+          "name": "Amino acids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1210,
+          "name": "Tryptophan",
+          "unit": "g",
+          "amount": 0.029
+        },
+        {
+          "id": 1211,
+          "name": "Threonine",
+          "unit": "g",
+          "amount": 0.091
+        },
+        {
+          "id": 1212,
+          "name": "Isoleucine",
+          "unit": "g",
+          "amount": 0.109
+        },
+        {
+          "id": 1213,
+          "name": "Leucine",
+          "unit": "g",
+          "amount": 0.131
+        },
+        {
+          "id": 1214,
+          "name": "Lysine",
+          "unit": "g",
+          "amount": 0.141
+        },
+        {
+          "id": 1215,
+          "name": "Methionine",
+          "unit": "g",
+          "amount": 0.034
+        },
+        {
+          "id": 1216,
+          "name": "Cystine",
+          "unit": "g",
+          "amount": 0.02
+        },
+        {
+          "id": 1217,
+          "name": "Phenylalanine",
+          "unit": "g",
+          "amount": 0.084
+        },
+        {
+          "id": 1218,
+          "name": "Tyrosine",
+          "unit": "g",
+          "amount": 0.063
+        },
+        {
+          "id": 1219,
+          "name": "Valine",
+          "unit": "g",
+          "amount": 0.128
+        },
+        {
+          "id": 1220,
+          "name": "Arginine",
+          "unit": "g",
+          "amount": 0.145
+        },
+        {
+          "id": 1221,
+          "name": "Histidine",
+          "unit": "g",
+          "amount": 0.05
+        },
+        {
+          "id": 1222,
+          "name": "Alanine",
+          "unit": "g",
+          "amount": 0.118
+        },
+        {
+          "id": 1223,
+          "name": "Aspartic acid",
+          "unit": "g",
+          "amount": 0.213
+        },
+        {
+          "id": 1224,
+          "name": "Glutamic acid",
+          "unit": "g",
+          "amount": 0.375
+        },
+        {
+          "id": 1225,
+          "name": "Glycine",
+          "unit": "g",
+          "amount": 0.095
+        },
+        {
+          "id": 1226,
+          "name": "Proline",
+          "unit": "g",
+          "amount": 0.114
+        },
+        {
+          "id": 1227,
+          "name": "Serine",
+          "unit": "g",
+          "amount": 0.1
+        },
+        {
+          "id": 1018,
+          "name": "Alcohol, ethyl",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1057,
+          "name": "Caffeine",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1058,
+          "name": "Theobromine",
+          "unit": "mg",
+          "amount": 0.0
+        }
+      ],
+      "elapsed_seconds": 0.547
+    },
+    {
+      "operation": "details",
+      "food_id": "173468",
+      "http": 200,
+      "description": "Salt, table",
+      "data_type": "SR Legacy",
+      "nutrients": [
+        {
+          "id": 2045,
+          "name": "Proximates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1051,
+          "name": "Water",
+          "unit": "g",
+          "amount": 0.2
+        },
+        {
+          "id": 1008,
+          "name": "Energy",
+          "unit": "kcal",
+          "amount": 0.0
+        },
+        {
+          "id": 1062,
+          "name": "Energy",
+          "unit": "kJ",
+          "amount": 0.0
+        },
+        {
+          "id": 1003,
+          "name": "Protein",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1004,
+          "name": "Total lipid (fat)",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1007,
+          "name": "Ash",
+          "unit": "g",
+          "amount": 99.8
+        },
+        {
+          "id": 2039,
+          "name": "Carbohydrates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1005,
+          "name": "Carbohydrate, by difference",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1079,
+          "name": "Fiber, total dietary",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 2000,
+          "name": "Total Sugars",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 2043,
+          "name": "Minerals",
+          "unit": "mg",
+          "amount": null
+        },
+        {
+          "id": 1087,
+          "name": "Calcium, Ca",
+          "unit": "mg",
+          "amount": 24.0
+        },
+        {
+          "id": 1089,
+          "name": "Iron, Fe",
+          "unit": "mg",
+          "amount": 0.33
+        },
+        {
+          "id": 1090,
+          "name": "Magnesium, Mg",
+          "unit": "mg",
+          "amount": 1.0
+        },
+        {
+          "id": 1091,
+          "name": "Phosphorus, P",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1092,
+          "name": "Potassium, K",
+          "unit": "mg",
+          "amount": 8.0
+        },
+        {
+          "id": 1093,
+          "name": "Sodium, Na",
+          "unit": "mg",
+          "amount": 38758.0
+        },
+        {
+          "id": 1095,
+          "name": "Zinc, Zn",
+          "unit": "mg",
+          "amount": 0.1
+        },
+        {
+          "id": 1098,
+          "name": "Copper, Cu",
+          "unit": "mg",
+          "amount": 0.03
+        },
+        {
+          "id": 1101,
+          "name": "Manganese, Mn",
+          "unit": "mg",
+          "amount": 0.1
+        },
+        {
+          "id": 1103,
+          "name": "Selenium, Se",
+          "unit": "\u00b5g",
+          "amount": 0.1
+        },
+        {
+          "id": 1099,
+          "name": "Fluoride, F",
+          "unit": "\u00b5g",
+          "amount": 2.0
+        },
+        {
+          "id": 2046,
+          "name": "Vitamins and Other Components",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1162,
+          "name": "Vitamin C, total ascorbic acid",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1165,
+          "name": "Thiamin",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1166,
+          "name": "Riboflavin",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1167,
+          "name": "Niacin",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1170,
+          "name": "Pantothenic acid",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1175,
+          "name": "Vitamin B-6",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1177,
+          "name": "Folate, total",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1186,
+          "name": "Folic acid",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1187,
+          "name": "Folate, food",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1190,
+          "name": "Folate, DFE",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1180,
+          "name": "Choline, total",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1178,
+          "name": "Vitamin B-12",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1246,
+          "name": "Vitamin B-12, added",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1106,
+          "name": "Vitamin A, RAE",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1105,
+          "name": "Retinol",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1107,
+          "name": "Carotene, beta",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1108,
+          "name": "Carotene, alpha",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1120,
+          "name": "Cryptoxanthin, beta",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1104,
+          "name": "Vitamin A, IU",
+          "unit": "IU",
+          "amount": 0.0
+        },
+        {
+          "id": 1122,
+          "name": "Lycopene",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1123,
+          "name": "Lutein + zeaxanthin",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1109,
+          "name": "Vitamin E (alpha-tocopherol)",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1242,
+          "name": "Vitamin E, added",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1110,
+          "name": "Vitamin D (D2 + D3), International Units",
+          "unit": "IU",
+          "amount": 0.0
+        },
+        {
+          "id": 1114,
+          "name": "Vitamin D (D2 + D3)",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1185,
+          "name": "Vitamin K (phylloquinone)",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 2044,
+          "name": "Lipids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1258,
+          "name": "Fatty acids, total saturated",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1259,
+          "name": "SFA 4:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1260,
+          "name": "SFA 6:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1261,
+          "name": "SFA 8:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1262,
+          "name": "SFA 10:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1263,
+          "name": "SFA 12:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1264,
+          "name": "SFA 14:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1265,
+          "name": "SFA 16:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1266,
+          "name": "SFA 18:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1292,
+          "name": "Fatty acids, total monounsaturated",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1275,
+          "name": "MUFA 16:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1268,
+          "name": "MUFA 18:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1277,
+          "name": "MUFA 20:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1279,
+          "name": "MUFA 22:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1293,
+          "name": "Fatty acids, total polyunsaturated",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1269,
+          "name": "PUFA 18:2",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1270,
+          "name": "PUFA 18:3",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1276,
+          "name": "PUFA 18:4",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1271,
+          "name": "PUFA 20:4",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1278,
+          "name": "PUFA 20:5 n-3 (EPA)",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1280,
+          "name": "PUFA 22:5 n-3 (DPA)",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1272,
+          "name": "PUFA 22:6 n-3 (DHA)",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1257,
+          "name": "Fatty acids, total trans",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1253,
+          "name": "Cholesterol",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1283,
+          "name": "Phytosterols",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 2042,
+          "name": "Amino acids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1210,
+          "name": "Tryptophan",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1211,
+          "name": "Threonine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1212,
+          "name": "Isoleucine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1213,
+          "name": "Leucine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1214,
+          "name": "Lysine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1215,
+          "name": "Methionine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1216,
+          "name": "Cystine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1217,
+          "name": "Phenylalanine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1218,
+          "name": "Tyrosine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1219,
+          "name": "Valine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1220,
+          "name": "Arginine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1221,
+          "name": "Histidine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1222,
+          "name": "Alanine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1223,
+          "name": "Aspartic acid",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1224,
+          "name": "Glutamic acid",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1225,
+          "name": "Glycine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1226,
+          "name": "Proline",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1227,
+          "name": "Serine",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1018,
+          "name": "Alcohol, ethyl",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1057,
+          "name": "Caffeine",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1058,
+          "name": "Theobromine",
+          "unit": "mg",
+          "amount": 0.0
+        }
+      ],
+      "elapsed_seconds": 0.44
+    },
+    {
+      "operation": "search",
+      "query": "black pepper",
+      "http": 200,
+      "candidates": [
+        {
+          "food_id": 170931,
+          "description": "Spices, pepper, black",
+          "data_type": "SR Legacy",
+          "exact_identity": true
+        },
+        {
+          "food_id": 169394,
+          "description": "Pepper, banana, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169396,
+          "description": "Peppers, ancho, dried",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168578,
+          "description": "Peppers, hungarian, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168576,
+          "description": "Peppers, jalapeno, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168579,
+          "description": "Peppers, pasilla, dried",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169395,
+          "description": "Peppers, serrano, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170933,
+          "description": "Spices, pepper, white",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173963,
+          "description": "Currants, european black, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170186,
+          "description": "Nuts, walnuts, black, dried",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2710837,
+          "description": "Plum, black, with skin, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2710825,
+          "description": "Rice, black, unenriched, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174574,
+          "description": "Peppered loaf, pork, beef",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2258588,
+          "description": "Peppers, bell, green, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2258591,
+          "description": "Peppers, bell, orange, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2258590,
+          "description": "Peppers, bell, red, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2258589,
+          "description": "Peppers, bell, yellow, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168577,
+          "description": "Peppers, chili, green, canned",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169766,
+          "description": "Peppers, hot pickled, canned",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2747661,
+          "description": "Peppers, jalapeno, seeded, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2747662,
+          "description": "Peppers, poblano, seeded, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2747663,
+          "description": "Peppers, serrano, seeded, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170427,
+          "description": "Peppers, sweet, green, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170024,
+          "description": "Peppers, sweet, green, sauteed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170108,
+          "description": "Peppers, sweet, red, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168550,
+          "description": "Peppers, sweet, red, sauteed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169383,
+          "description": "Peppers, sweet, yellow, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170932,
+          "description": "Spices, pepper, red or cayenne",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173734,
+          "description": "Beans, black, mature seeds, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 747444,
+          "description": "Beans, Dry, Black (0% moisture)",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169793,
+          "description": "Bear, black, meat (Alaska Native)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174144,
+          "description": "Beverages, tea, black, ready to drink",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174188,
+          "description": "Fish, caviar, black and red, granular",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2759002,
+          "description": "Lunchmeat, ham, black forest, sliced",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168068,
+          "description": "Restaurant, Latino, black bean soup",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173780,
+          "description": "SILK Black Cherry soy yogurt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171141,
+          "description": "Soup, black bean, canned, condensed",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175188,
+          "description": "Beans, black turtle, mature seeds, canned",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175186,
+          "description": "Beans, black turtle, mature seeds, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173212,
+          "description": "Beverages, tea, black, ready to drink, decaffeinated",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168570,
+          "description": "Peppers, hot chile, sun-dried",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170497,
+          "description": "Peppers, hot chili, green, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170106,
+          "description": "Peppers, hot chili, red, raw",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170080,
+          "description": "Peppers, jalapeno, canned, solids and liquids",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169373,
+          "description": "Peppers, sweet, red, freeze-dried",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174527,
+          "description": "Sauce, ready-to-serve, pepper or hot",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174528,
+          "description": "Sauce, ready-to-serve, pepper, TABASCO",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2644285,
+          "description": "Beans, black, canned, sodium added, drained and rinsed",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175238,
+          "description": "Beans, black, mature seeds, canned, low sodium",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175237,
+          "description": "Beans, black, mature seeds, cooked, boiled, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174847,
+          "description": "Beverages, NESTEA, tea, black, ready-to-drink, lemon",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174155,
+          "description": "Beverages, tea, black, brewed, prepared with distilled water",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173227,
+          "description": "Beverages, tea, black, brewed, prepared with tap water",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173211,
+          "description": "Beverages, tea, black, ready to drink, decaffeinated, diet",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171892,
+          "description": "Beverages, tea, black, ready-to-drink, lemon, diet",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171888,
+          "description": "Beverages, tea, black, ready-to-drink, lemon, sweetened",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174855,
+          "description": "Beverages, tea, black, ready-to-drink, peach, diet",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173209,
+          "description": "Beverages, carbonated, pepper-type, contains caffeine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 2747660,
+          "description": "Peppers, banana or Hungarian wax, seeded, raw",
+          "data_type": "Foundation",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170429,
+          "description": "Peppers, sweet, green, canned, solids and liquids",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170022,
+          "description": "Peppers, sweet, green, frozen, chopped, unprepared",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168546,
+          "description": "Peppers, sweet, red, canned, solids and liquids",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168547,
+          "description": "Peppers, sweet, red, frozen, chopped, unprepared",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175239,
+          "description": "Beans, black turtle, mature seeds, cooked, boiled, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173735,
+          "description": "Beans, black, mature seeds, cooked, boiled, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175111,
+          "description": "Beverages, LIPTON BRISK, tea, black, ready-to-drink, lemon",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174871,
+          "description": "Beverages, tea, black, brewed, prepared with tap water, decaffeinated",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 172903,
+          "description": "Soup, black bean, canned, prepared with equal volume water",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 169218,
+          "description": "Corn with red and green peppers, canned, solids and liquids",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170109,
+          "description": "Peppers, sweet, green, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170515,
+          "description": "Peppers, sweet, red, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171605,
+          "description": "Sauce, chili, peppers, hot, immature green, canned",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171604,
+          "description": "Sauce, peppers, hot, chili, mature red, canned",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175187,
+          "description": "Beans, black turtle, mature seeds, cooked, boiled, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173218,
+          "description": "Beverages, SNAPPLE, tea, black and green, ready to drink, lemon, diet",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173215,
+          "description": "Beverages, SNAPPLE, tea, black and green, ready to drink, peach, diet",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168064,
+          "description": "Restaurant, Latino, Arroz con frijoles negros (rice and black beans)",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170712,
+          "description": "SUBWAY, black forest ham sub on white bread with lettuce and tomato",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170428,
+          "description": "Peppers, sweet, green, cooked, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170110,
+          "description": "Peppers, sweet, red, cooked, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168549,
+          "description": "Peppers, sweet, red, frozen, chopped, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170462,
+          "description": "Tomato products, canned, sauce, with onions, green peppers, and celery",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170107,
+          "description": "Peppers, hot chili, red, canned, excluding seeds, solids and liquids",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170023,
+          "description": "Peppers, sweet, green, frozen, chopped, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170516,
+          "description": "Peppers, sweet, green, frozen, chopped, cooked, boiled, drained, with salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 168548,
+          "description": "Peppers, sweet, red, frozen, chopped, boiled, drained, without salt",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174612,
+          "description": "Turkey, breast, smoked, lemon pepper flavor, 97% fat-free",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175099,
+          "description": "Beverages, carbonated, low calorie, cola or pepper-type, with aspartame, contains caffeine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 174850,
+          "description": "Beverages, carbonated, low calorie, cola or pepper-type, with aspartame, without caffeine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173204,
+          "description": "Beverages, carbonated, low calorie, other than cola or pepper,  without caffeine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 170426,
+          "description": "Peppers, hot chili, green, canned, pods, excluding seeds, solids and liquids",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 171876,
+          "description": "Beverages, carbonated, low calorie, cola or pepper-types, with sodium saccharin, contains caffeine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 173207,
+          "description": "Beverages, carbonated, low calorie, other than cola or pepper, with aspartame, contains caffeine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        },
+        {
+          "food_id": 175113,
+          "description": "Carbonated beverage, low calorie, other than cola or pepper, with sodium saccharin, without caffeine",
+          "data_type": "SR Legacy",
+          "exact_identity": false
+        }
+      ],
+      "elapsed_seconds": 0.797
+    },
+    {
+      "operation": "details",
+      "food_id": "2646170",
+      "http": 200,
+      "description": "Chicken, breast, boneless, skinless, raw",
+      "data_type": "Foundation",
+      "nutrients": [
+        {
+          "id": 2045,
+          "name": "Proximates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1051,
+          "name": "Water",
+          "unit": "g",
+          "amount": 74.78
+        },
+        {
+          "id": 2047,
+          "name": "Energy (Atwater General Factors)",
+          "unit": "kcal",
+          "amount": 106.034
+        },
+        {
+          "id": 2048,
+          "name": "Energy (Atwater Specific Factors)",
+          "unit": "kcal",
+          "amount": 112.20227
+        },
+        {
+          "id": 1002,
+          "name": "Nitrogen",
+          "unit": "g",
+          "amount": 3.604
+        },
+        {
+          "id": 1003,
+          "name": "Protein",
+          "unit": "g",
+          "amount": 22.525
+        },
+        {
+          "id": 1004,
+          "name": "Total lipid (fat)",
+          "unit": "g",
+          "amount": 1.934
+        },
+        {
+          "id": 1007,
+          "name": "Ash",
+          "unit": "g",
+          "amount": 1.129
+        },
+        {
+          "id": 2039,
+          "name": "Carbohydrates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1005,
+          "name": "Carbohydrate, by difference",
+          "unit": "g",
+          "amount": 0
+        },
+        {
+          "id": 2043,
+          "name": "Minerals",
+          "unit": "mg",
+          "amount": null
+        },
+        {
+          "id": 1087,
+          "name": "Calcium, Ca",
+          "unit": "mg",
+          "amount": 3.939
+        },
+        {
+          "id": 1089,
+          "name": "Iron, Fe",
+          "unit": "mg",
+          "amount": 0.3543
+        },
+        {
+          "id": 1090,
+          "name": "Magnesium, Mg",
+          "unit": "mg",
+          "amount": 26.2
+        },
+        {
+          "id": 1091,
+          "name": "Phosphorus, P",
+          "unit": "mg",
+          "amount": 214.9
+        },
+        {
+          "id": 1092,
+          "name": "Potassium, K",
+          "unit": "mg",
+          "amount": 330.1
+        },
+        {
+          "id": 1093,
+          "name": "Sodium, Na",
+          "unit": "mg",
+          "amount": 65.75
+        },
+        {
+          "id": 1095,
+          "name": "Zinc, Zn",
+          "unit": "mg",
+          "amount": 0.6545
+        },
+        {
+          "id": 1098,
+          "name": "Copper, Cu",
+          "unit": "mg",
+          "amount": 0.003638
+        },
+        {
+          "id": 1101,
+          "name": "Manganese, Mn",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 2044,
+          "name": "Lipids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1258,
+          "name": "Fatty acids, total saturated",
+          "unit": "g",
+          "amount": 0.3488
+        },
+        {
+          "id": 1292,
+          "name": "Fatty acids, total monounsaturated",
+          "unit": "g",
+          "amount": 0.3688
+        },
+        {
+          "id": 1293,
+          "name": "Fatty acids, total polyunsaturated",
+          "unit": "g",
+          "amount": 0.2963
+        },
+        {
+          "id": 1257,
+          "name": "Fatty acids, total trans",
+          "unit": "g",
+          "amount": 0.00875
+        },
+        {
+          "id": 1253,
+          "name": "Cholesterol",
+          "unit": "mg",
+          "amount": 72.73
+        }
+      ],
+      "elapsed_seconds": 1.227
+    },
+    {
+      "operation": "details",
+      "food_id": "170931",
+      "http": 200,
+      "description": "Spices, pepper, black",
+      "data_type": "SR Legacy",
+      "nutrients": [
+        {
+          "id": 2045,
+          "name": "Proximates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1051,
+          "name": "Water",
+          "unit": "g",
+          "amount": 12.46
+        },
+        {
+          "id": 1008,
+          "name": "Energy",
+          "unit": "kcal",
+          "amount": 251.0
+        },
+        {
+          "id": 1062,
+          "name": "Energy",
+          "unit": "kJ",
+          "amount": 1050.0
+        },
+        {
+          "id": 1003,
+          "name": "Protein",
+          "unit": "g",
+          "amount": 10.39
+        },
+        {
+          "id": 1004,
+          "name": "Total lipid (fat)",
+          "unit": "g",
+          "amount": 3.26
+        },
+        {
+          "id": 1007,
+          "name": "Ash",
+          "unit": "g",
+          "amount": 4.49
+        },
+        {
+          "id": 2039,
+          "name": "Carbohydrates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1005,
+          "name": "Carbohydrate, by difference",
+          "unit": "g",
+          "amount": 63.95
+        },
+        {
+          "id": 1079,
+          "name": "Fiber, total dietary",
+          "unit": "g",
+          "amount": 25.3
+        },
+        {
+          "id": 2000,
+          "name": "Total Sugars",
+          "unit": "g",
+          "amount": 0.64
+        },
+        {
+          "id": 1010,
+          "name": "Sucrose",
+          "unit": "g",
+          "amount": 0.02
+        },
+        {
+          "id": 1011,
+          "name": "Glucose",
+          "unit": "g",
+          "amount": 0.24
+        },
+        {
+          "id": 1012,
+          "name": "Fructose",
+          "unit": "g",
+          "amount": 0.23
+        },
+        {
+          "id": 1013,
+          "name": "Lactose",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1014,
+          "name": "Maltose",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1075,
+          "name": "Galactose",
+          "unit": "g",
+          "amount": 0.15
+        },
+        {
+          "id": 2043,
+          "name": "Minerals",
+          "unit": "mg",
+          "amount": null
+        },
+        {
+          "id": 1087,
+          "name": "Calcium, Ca",
+          "unit": "mg",
+          "amount": 443.0
+        },
+        {
+          "id": 1089,
+          "name": "Iron, Fe",
+          "unit": "mg",
+          "amount": 9.71
+        },
+        {
+          "id": 1090,
+          "name": "Magnesium, Mg",
+          "unit": "mg",
+          "amount": 171.0
+        },
+        {
+          "id": 1091,
+          "name": "Phosphorus, P",
+          "unit": "mg",
+          "amount": 158.0
+        },
+        {
+          "id": 1092,
+          "name": "Potassium, K",
+          "unit": "mg",
+          "amount": 1329.0
+        },
+        {
+          "id": 1093,
+          "name": "Sodium, Na",
+          "unit": "mg",
+          "amount": 20.0
+        },
+        {
+          "id": 1095,
+          "name": "Zinc, Zn",
+          "unit": "mg",
+          "amount": 1.19
+        },
+        {
+          "id": 1098,
+          "name": "Copper, Cu",
+          "unit": "mg",
+          "amount": 1.33
+        },
+        {
+          "id": 1101,
+          "name": "Manganese, Mn",
+          "unit": "mg",
+          "amount": 12.753
+        },
+        {
+          "id": 1103,
+          "name": "Selenium, Se",
+          "unit": "\u00b5g",
+          "amount": 4.9
+        },
+        {
+          "id": 1099,
+          "name": "Fluoride, F",
+          "unit": "\u00b5g",
+          "amount": 34.2
+        },
+        {
+          "id": 2046,
+          "name": "Vitamins and Other Components",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1162,
+          "name": "Vitamin C, total ascorbic acid",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1165,
+          "name": "Thiamin",
+          "unit": "mg",
+          "amount": 0.108
+        },
+        {
+          "id": 1166,
+          "name": "Riboflavin",
+          "unit": "mg",
+          "amount": 0.18
+        },
+        {
+          "id": 1167,
+          "name": "Niacin",
+          "unit": "mg",
+          "amount": 1.143
+        },
+        {
+          "id": 1170,
+          "name": "Pantothenic acid",
+          "unit": "mg",
+          "amount": 1.399
+        },
+        {
+          "id": 1175,
+          "name": "Vitamin B-6",
+          "unit": "mg",
+          "amount": 0.291
+        },
+        {
+          "id": 1177,
+          "name": "Folate, total",
+          "unit": "\u00b5g",
+          "amount": 17.0
+        },
+        {
+          "id": 1186,
+          "name": "Folic acid",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1187,
+          "name": "Folate, food",
+          "unit": "\u00b5g",
+          "amount": 17.0
+        },
+        {
+          "id": 1190,
+          "name": "Folate, DFE",
+          "unit": "\u00b5g",
+          "amount": 17.0
+        },
+        {
+          "id": 1180,
+          "name": "Choline, total",
+          "unit": "mg",
+          "amount": 11.3
+        },
+        {
+          "id": 1198,
+          "name": "Betaine",
+          "unit": "mg",
+          "amount": 8.9
+        },
+        {
+          "id": 1178,
+          "name": "Vitamin B-12",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1246,
+          "name": "Vitamin B-12, added",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1106,
+          "name": "Vitamin A, RAE",
+          "unit": "\u00b5g",
+          "amount": 27.0
+        },
+        {
+          "id": 1105,
+          "name": "Retinol",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1107,
+          "name": "Carotene, beta",
+          "unit": "\u00b5g",
+          "amount": 310.0
+        },
+        {
+          "id": 1108,
+          "name": "Carotene, alpha",
+          "unit": "\u00b5g",
+          "amount": 12.0
+        },
+        {
+          "id": 1120,
+          "name": "Cryptoxanthin, beta",
+          "unit": "\u00b5g",
+          "amount": 25.0
+        },
+        {
+          "id": 1104,
+          "name": "Vitamin A, IU",
+          "unit": "IU",
+          "amount": 547.0
+        },
+        {
+          "id": 1122,
+          "name": "Lycopene",
+          "unit": "\u00b5g",
+          "amount": 20.0
+        },
+        {
+          "id": 1123,
+          "name": "Lutein + zeaxanthin",
+          "unit": "\u00b5g",
+          "amount": 454.0
+        },
+        {
+          "id": 1109,
+          "name": "Vitamin E (alpha-tocopherol)",
+          "unit": "mg",
+          "amount": 1.04
+        },
+        {
+          "id": 1242,
+          "name": "Vitamin E, added",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1125,
+          "name": "Tocopherol, beta",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1126,
+          "name": "Tocopherol, gamma",
+          "unit": "mg",
+          "amount": 6.56
+        },
+        {
+          "id": 1127,
+          "name": "Tocopherol, delta",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1128,
+          "name": "Tocotrienol, alpha",
+          "unit": "mg",
+          "amount": 0.85
+        },
+        {
+          "id": 1129,
+          "name": "Tocotrienol, beta",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1130,
+          "name": "Tocotrienol, gamma",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1131,
+          "name": "Tocotrienol, delta",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1110,
+          "name": "Vitamin D (D2 + D3), International Units",
+          "unit": "IU",
+          "amount": 0.0
+        },
+        {
+          "id": 1114,
+          "name": "Vitamin D (D2 + D3)",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 1185,
+          "name": "Vitamin K (phylloquinone)",
+          "unit": "\u00b5g",
+          "amount": 163.7
+        },
+        {
+          "id": 1184,
+          "name": "Vitamin K (Dihydrophylloquinone)",
+          "unit": "\u00b5g",
+          "amount": 0.0
+        },
+        {
+          "id": 2044,
+          "name": "Lipids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1258,
+          "name": "Fatty acids, total saturated",
+          "unit": "g",
+          "amount": 1.392
+        },
+        {
+          "id": 1259,
+          "name": "SFA 4:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1260,
+          "name": "SFA 6:0",
+          "unit": "g",
+          "amount": 0.012
+        },
+        {
+          "id": 1261,
+          "name": "SFA 8:0",
+          "unit": "g",
+          "amount": 0.102
+        },
+        {
+          "id": 1262,
+          "name": "SFA 10:0",
+          "unit": "g",
+          "amount": 0.036
+        },
+        {
+          "id": 1263,
+          "name": "SFA 12:0",
+          "unit": "g",
+          "amount": 0.093
+        },
+        {
+          "id": 1332,
+          "name": "SFA 13:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1264,
+          "name": "SFA 14:0",
+          "unit": "g",
+          "amount": 0.03
+        },
+        {
+          "id": 1299,
+          "name": "SFA 15:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1265,
+          "name": "SFA 16:0",
+          "unit": "g",
+          "amount": 0.533
+        },
+        {
+          "id": 1300,
+          "name": "SFA 17:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1266,
+          "name": "SFA 18:0",
+          "unit": "g",
+          "amount": 0.327
+        },
+        {
+          "id": 1267,
+          "name": "SFA 20:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1273,
+          "name": "SFA 22:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1301,
+          "name": "SFA 24:0",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1292,
+          "name": "Fatty acids, total monounsaturated",
+          "unit": "g",
+          "amount": 0.739
+        },
+        {
+          "id": 1274,
+          "name": "MUFA 14:1",
+          "unit": "g",
+          "amount": 0.016
+        },
+        {
+          "id": 1333,
+          "name": "MUFA 15:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1275,
+          "name": "MUFA 16:1",
+          "unit": "g",
+          "amount": 0.077
+        },
+        {
+          "id": 1323,
+          "name": "MUFA 17:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1268,
+          "name": "MUFA 18:1",
+          "unit": "g",
+          "amount": 0.647
+        },
+        {
+          "id": 1315,
+          "name": "MUFA 18:1 c",
+          "unit": "g",
+          "amount": 0.647
+        },
+        {
+          "id": 1277,
+          "name": "MUFA 20:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1279,
+          "name": "MUFA 22:1",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1312,
+          "name": "MUFA 24:1 c",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1293,
+          "name": "Fatty acids, total polyunsaturated",
+          "unit": "g",
+          "amount": 0.998
+        },
+        {
+          "id": 1269,
+          "name": "PUFA 18:2",
+          "unit": "g",
+          "amount": 0.694
+        },
+        {
+          "id": 1270,
+          "name": "PUFA 18:3",
+          "unit": "g",
+          "amount": 0.152
+        },
+        {
+          "id": 1404,
+          "name": "PUFA 18:3 n-3 c,c,c (ALA)",
+          "unit": "g",
+          "amount": 0.152
+        },
+        {
+          "id": 1321,
+          "name": "PUFA 18:3 n-6 c,c,c",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1276,
+          "name": "PUFA 18:4",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1313,
+          "name": "PUFA 20:2 n-6 c,c",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1325,
+          "name": "PUFA 20:3",
+          "unit": "g",
+          "amount": 0.152
+        },
+        {
+          "id": 1271,
+          "name": "PUFA 20:4",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1278,
+          "name": "PUFA 20:5 n-3 (EPA)",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1280,
+          "name": "PUFA 22:5 n-3 (DPA)",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1272,
+          "name": "PUFA 22:6 n-3 (DHA)",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1257,
+          "name": "Fatty acids, total trans",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1329,
+          "name": "Fatty acids, total trans-monoenoic",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1304,
+          "name": "TFA 18:1 t",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1253,
+          "name": "Cholesterol",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1283,
+          "name": "Phytosterols",
+          "unit": "mg",
+          "amount": 92.0
+        },
+        {
+          "id": 2042,
+          "name": "Amino acids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1210,
+          "name": "Tryptophan",
+          "unit": "g",
+          "amount": 0.058
+        },
+        {
+          "id": 1211,
+          "name": "Threonine",
+          "unit": "g",
+          "amount": 0.244
+        },
+        {
+          "id": 1212,
+          "name": "Isoleucine",
+          "unit": "g",
+          "amount": 0.366
+        },
+        {
+          "id": 1213,
+          "name": "Leucine",
+          "unit": "g",
+          "amount": 1.014
+        },
+        {
+          "id": 1214,
+          "name": "Lysine",
+          "unit": "g",
+          "amount": 0.244
+        },
+        {
+          "id": 1215,
+          "name": "Methionine",
+          "unit": "g",
+          "amount": 0.096
+        },
+        {
+          "id": 1216,
+          "name": "Cystine",
+          "unit": "g",
+          "amount": 0.138
+        },
+        {
+          "id": 1217,
+          "name": "Phenylalanine",
+          "unit": "g",
+          "amount": 0.446
+        },
+        {
+          "id": 1218,
+          "name": "Tyrosine",
+          "unit": "g",
+          "amount": 0.483
+        },
+        {
+          "id": 1219,
+          "name": "Valine",
+          "unit": "g",
+          "amount": 0.547
+        },
+        {
+          "id": 1220,
+          "name": "Arginine",
+          "unit": "g",
+          "amount": 0.308
+        },
+        {
+          "id": 1221,
+          "name": "Histidine",
+          "unit": "g",
+          "amount": 0.159
+        },
+        {
+          "id": 1222,
+          "name": "Alanine",
+          "unit": "g",
+          "amount": 0.616
+        },
+        {
+          "id": 1223,
+          "name": "Aspartic acid",
+          "unit": "g",
+          "amount": 1.413
+        },
+        {
+          "id": 1224,
+          "name": "Glutamic acid",
+          "unit": "g",
+          "amount": 1.413
+        },
+        {
+          "id": 1225,
+          "name": "Glycine",
+          "unit": "g",
+          "amount": 0.441
+        },
+        {
+          "id": 1226,
+          "name": "Proline",
+          "unit": "g",
+          "amount": 1.413
+        },
+        {
+          "id": 1227,
+          "name": "Serine",
+          "unit": "g",
+          "amount": 0.409
+        },
+        {
+          "id": 1228,
+          "name": "Hydroxyproline",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1018,
+          "name": "Alcohol, ethyl",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1057,
+          "name": "Caffeine",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1058,
+          "name": "Theobromine",
+          "unit": "mg",
+          "amount": 0.0
+        }
+      ],
+      "elapsed_seconds": 0.364
+    },
+    {
+      "operation": "details",
+      "food_id": "748608",
+      "http": 200,
+      "description": "Oil, olive, extra virgin",
+      "data_type": "Foundation",
+      "nutrients": [
+        {
+          "id": 2045,
+          "name": "Proximates",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1085,
+          "name": "Total fat (NLEA)",
+          "unit": "g",
+          "amount": 93.7
+        },
+        {
+          "id": 2044,
+          "name": "Lipids",
+          "unit": "g",
+          "amount": null
+        },
+        {
+          "id": 1258,
+          "name": "Fatty acids, total saturated",
+          "unit": "g",
+          "amount": 15.4
+        },
+        {
+          "id": 1264,
+          "name": "SFA 14:0",
+          "unit": "g",
+          "amount": 0.013
+        },
+        {
+          "id": 1299,
+          "name": "SFA 15:0",
+          "unit": "g",
+          "amount": 0.006
+        },
+        {
+          "id": 1265,
+          "name": "SFA 16:0",
+          "unit": "g",
+          "amount": 12.1
+        },
+        {
+          "id": 1300,
+          "name": "SFA 17:0",
+          "unit": "g",
+          "amount": 0.081
+        },
+        {
+          "id": 1266,
+          "name": "SFA 18:0",
+          "unit": "g",
+          "amount": 2.59
+        },
+        {
+          "id": 1267,
+          "name": "SFA 20:0",
+          "unit": "g",
+          "amount": 0.411
+        },
+        {
+          "id": 2006,
+          "name": "SFA 21:0",
+          "unit": "g",
+          "amount": 0.014
+        },
+        {
+          "id": 1273,
+          "name": "SFA 22:0",
+          "unit": "g",
+          "amount": 0.118
+        },
+        {
+          "id": 1301,
+          "name": "SFA 24:0",
+          "unit": "g",
+          "amount": 0.062
+        },
+        {
+          "id": 1292,
+          "name": "Fatty acids, total monounsaturated",
+          "unit": "g",
+          "amount": 69.2
+        },
+        {
+          "id": 1314,
+          "name": "MUFA 16:1 c",
+          "unit": "g",
+          "amount": 1.03
+        },
+        {
+          "id": 1315,
+          "name": "MUFA 18:1 c",
+          "unit": "g",
+          "amount": 67.8
+        },
+        {
+          "id": 2012,
+          "name": "MUFA 20:1 c",
+          "unit": "g",
+          "amount": 0.276
+        },
+        {
+          "id": 1293,
+          "name": "Fatty acids, total polyunsaturated",
+          "unit": "g",
+          "amount": 9.07
+        },
+        {
+          "id": 2016,
+          "name": "PUFA 18:2 c",
+          "unit": "g",
+          "amount": 8.4
+        },
+        {
+          "id": 1316,
+          "name": "PUFA 18:2 n-6 c,c",
+          "unit": "g",
+          "amount": 8.4
+        },
+        {
+          "id": 2018,
+          "name": "PUFA 18:3 c",
+          "unit": "g",
+          "amount": 0.651
+        },
+        {
+          "id": 1404,
+          "name": "PUFA 18:3 n-3 c,c,c (ALA)",
+          "unit": "g",
+          "amount": 0.651
+        },
+        {
+          "id": 2020,
+          "name": "PUFA 20:3 c",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1406,
+          "name": "PUFA 20:3 n-6",
+          "unit": "g",
+          "amount": 0.0
+        },
+        {
+          "id": 1283,
+          "name": "Phytosterols",
+          "unit": "mg",
+          "amount": null
+        },
+        {
+          "id": 1285,
+          "name": "Stigmasterol",
+          "unit": "mg",
+          "amount": 1.02
+        },
+        {
+          "id": 1286,
+          "name": "Campesterol",
+          "unit": "mg",
+          "amount": 5.68
+        },
+        {
+          "id": 1287,
+          "name": "Brassicasterol",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1288,
+          "name": "Beta-sitosterol",
+          "unit": "mg",
+          "amount": 126.0
+        },
+        {
+          "id": 1289,
+          "name": "Campestanol",
+          "unit": "mg",
+          "amount": 0.0
+        },
+        {
+          "id": 1294,
+          "name": "Beta-sitostanol",
+          "unit": "mg",
+          "amount": 2.55
+        },
+        {
+          "id": 1296,
+          "name": "Delta-5-avenasterol",
+          "unit": "mg",
+          "amount": 23.1
+        },
+        {
+          "id": 1298,
+          "name": "Phytosterols, other",
+          "unit": "mg",
+          "amount": 26.9
+        }
+      ],
+      "elapsed_seconds": 3.88
+    }
+  ]
+}

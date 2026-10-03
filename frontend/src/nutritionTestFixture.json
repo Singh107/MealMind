@@ -1,0 +1,259 @@
+{
+  "calculated_nutrition": {
+    "totals": {
+      "calories": 500.0,
+      "protein": 50.0,
+      "carbohydrates": 75.0,
+      "fat": 25.0,
+      "fiber": 10.0,
+      "sodium": 100.0
+    },
+    "per_serving": {
+      "calories": 125.0,
+      "protein": 12.5,
+      "carbohydrates": 18.75,
+      "fat": 6.25,
+      "fiber": 2.5,
+      "sodium": 25.0
+    },
+    "known_totals": {
+      "calories": 500.0,
+      "protein": 50.0,
+      "carbohydrates": 75.0,
+      "fat": 25.0,
+      "fiber": 10.0,
+      "sodium": 100.0
+    },
+    "known_per_serving": {
+      "calories": 125.0,
+      "protein": 12.5,
+      "carbohydrates": 18.75,
+      "fat": 6.25,
+      "fiber": 2.5,
+      "sodium": 25.0
+    },
+    "coverage": {
+      "calories": 2,
+      "protein": 2,
+      "carbohydrates": 2,
+      "fat": 2,
+      "fiber": 2,
+      "sodium": 2
+    },
+    "ingredient_count": 2,
+    "servings": 4,
+    "calculation_version": "nutrition-v1"
+  },
+  "nutrition_status": "verified",
+  "nutrition_sources": [
+    {
+      "ingredient_index": 0,
+      "ingredient": {
+        "original_text": "200.0 g Lentils",
+        "name": "Lentils",
+        "canonical_name": "lentil",
+        "quantity": 200.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 200.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "calculated",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "123",
+        "description": "Broccoli, raw",
+        "data_type": "Foundation",
+        "retrieved_at": "2026-09-11T00:00:00+00:00",
+        "food_state": "raw",
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": 100.0,
+          "protein": 10.0,
+          "carbohydrates": 15.0,
+          "fat": 5.0,
+          "fiber": 2.0,
+          "sodium": 20.0
+        },
+        "nutrient_ids": {},
+        "portions": []
+      },
+      "nutrients": {
+        "calories": 200.0,
+        "protein": 20.0,
+        "carbohydrates": 30.0,
+        "fat": 10.0,
+        "fiber": 4.0,
+        "sodium": 40.0
+      },
+      "reason": null
+    },
+    {
+      "ingredient_index": 1,
+      "ingredient": {
+        "original_text": "300.0 g Tomatoes",
+        "name": "Tomatoes",
+        "canonical_name": "tomato",
+        "quantity": 300.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 300.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "calculated",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "123",
+        "description": "Broccoli, raw",
+        "data_type": "Foundation",
+        "retrieved_at": "2026-09-11T00:00:00+00:00",
+        "food_state": "raw",
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": 100.0,
+          "protein": 10.0,
+          "carbohydrates": 15.0,
+          "fat": 5.0,
+          "fiber": 2.0,
+          "sodium": 20.0
+        },
+        "nutrient_ids": {},
+        "portions": []
+      },
+      "nutrients": {
+        "calories": 300.0,
+        "protein": 30.0,
+        "carbohydrates": 45.0,
+        "fat": 15.0,
+        "fiber": 6.0,
+        "sodium": 60.0
+      },
+      "reason": null
+    }
+  ],
+  "unmatched_ingredients": [],
+  "constraint_results": [
+    {
+      "constraint": "maximum_calories",
+      "requested": 130.0,
+      "actual": 125.0,
+      "unit": "kcal",
+      "status": "passed",
+      "passed": true,
+      "difference": -5.0,
+      "reason": "At or below the inclusive maximum.",
+      "evidence": [
+        "usda_fdc:123",
+        "usda_fdc:123"
+      ]
+    },
+    {
+      "constraint": "maximum_carbohydrates",
+      "requested": 20.0,
+      "actual": 18.75,
+      "unit": "g",
+      "status": "passed",
+      "passed": true,
+      "difference": -1.25,
+      "reason": "At or below the inclusive maximum.",
+      "evidence": [
+        "usda_fdc:123",
+        "usda_fdc:123"
+      ]
+    },
+    {
+      "constraint": "maximum_fat",
+      "requested": 5.0,
+      "actual": 6.25,
+      "unit": "g",
+      "status": "failed",
+      "passed": false,
+      "difference": 1.25,
+      "reason": "Above the requested maximum.",
+      "evidence": [
+        "usda_fdc:123",
+        "usda_fdc:123"
+      ]
+    },
+    {
+      "constraint": "minimum_protein",
+      "requested": 40.0,
+      "actual": 12.5,
+      "unit": "g",
+      "status": "failed",
+      "passed": false,
+      "difference": -27.5,
+      "reason": "Below the requested minimum.",
+      "evidence": [
+        "usda_fdc:123",
+        "usda_fdc:123"
+      ]
+    }
+  ],
+  "overall_constraint_status": "failed",
+  "potential_allergen_warnings": [],
+  "constraint_version": "constraints-v1",
+  "recipe": {
+    "title": "Lentil and Tomato Stew",
+    "description": "A simple lentil stew with tomatoes.",
+    "ingredients": [
+      {
+        "name": "Lentils",
+        "quantity": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 300.0,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Rinse lentils and dice tomatoes.",
+      "Simmer the ingredients in water until the lentils are tender."
+    ],
+    "prep_time": 10,
+    "cook_time": 25,
+    "total_time": 35,
+    "servings": 4,
+    "cuisine": "mediterranean",
+    "difficulty": "beginner",
+    "dietary_tags": [
+      "vegan"
+    ],
+    "potential_allergens": [],
+    "nutrition": {
+      "calories": 210.0,
+      "protein": 14.0,
+      "carbohydrates": 35.0,
+      "fat": 1.0,
+      "fiber": 8.0,
+      "sodium": null
+    },
+    "id": "eb4658e4-05e8-4076-8743-60eb0d947141",
+    "recipe_version_id": "06b9fb7a-96ef-4390-a339-a73b49f46ef4",
+    "validation_status": "unverified",
+    "nutrition_source": "ai_estimate",
+    "nutrition_basis": "per_serving"
+  },
+  "warnings": [
+    "Legacy recipe.nutrition contains AI estimates; calculated_nutrition is independent food-data arithmetic.",
+    "Generic food data does not establish allergen safety. Check ingredients and product labels.",
+    "Additional ingredients may be included; review the complete ingredient list."
+  ],
+  "metadata": {
+    "provider": "test-provider",
+    "model": "fixture-v1",
+    "prompt_version": "recipe-v2",
+    "schema_version": "1.1"
+  },
+  "trace_id": "nutrition-fixture-v1"
+}

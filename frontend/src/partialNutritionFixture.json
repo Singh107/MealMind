@@ -1,0 +1,452 @@
+{
+  "calculated_nutrition": {
+    "totals": {
+      "calories": null,
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "fiber": null,
+      "sodium": null
+    },
+    "per_serving": {
+      "calories": null,
+      "protein": null,
+      "carbohydrates": null,
+      "fat": null,
+      "fiber": null,
+      "sodium": null
+    },
+    "known_totals": {
+      "calories": 535.31908,
+      "protein": 99.1439,
+      "carbohydrates": 15.8195,
+      "fat": 8.8186,
+      "fiber": 7.153,
+      "sodium": 344.2
+    },
+    "known_per_serving": {
+      "calories": 267.65954,
+      "protein": 49.57195,
+      "carbohydrates": 7.90975,
+      "fat": 4.4093,
+      "fiber": 3.5765,
+      "sodium": 172.1
+    },
+    "coverage": {
+      "calories": 3,
+      "protein": 3,
+      "carbohydrates": 3,
+      "fat": 3,
+      "fiber": 2,
+      "sodium": 3
+    },
+    "ingredient_count": 6,
+    "servings": 2,
+    "calculation_version": "nutrition-v1"
+  },
+  "nutrition_status": "partial",
+  "nutrition_sources": [
+    {
+      "ingredient_index": 0,
+      "ingredient": {
+        "original_text": "400.0 g raw boneless skinless chicken breast",
+        "name": "boneless skinless chicken breast",
+        "canonical_name": null,
+        "quantity": 400.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": "raw",
+        "grams": 400.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "calculated",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "2646170",
+        "description": "Chicken, breast, boneless, skinless, raw",
+        "data_type": "Foundation",
+        "retrieved_at": "2026-09-14T18:18:19.886905+00:00",
+        "food_state": "raw",
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": 112.20227,
+          "protein": 22.525,
+          "carbohydrates": 0.0,
+          "fat": 1.934,
+          "fiber": null,
+          "sodium": 65.75
+        },
+        "nutrient_ids": {
+          "calories": 2048,
+          "protein": 1003,
+          "carbohydrates": 1005,
+          "fat": 1004,
+          "sodium": 1093
+        },
+        "portions": []
+      },
+      "nutrients": {
+        "calories": 448.80908,
+        "protein": 90.1,
+        "carbohydrates": 0.0,
+        "fat": 7.736,
+        "fiber": null,
+        "sodium": 263.0
+      },
+      "reason": null
+    },
+    {
+      "ingredient_index": 1,
+      "ingredient": {
+        "original_text": "300.0 g raw broccoli florets",
+        "name": "broccoli florets",
+        "canonical_name": null,
+        "quantity": 300.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": "raw",
+        "grams": 300.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "calculated",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "169330",
+        "description": "Broccoli, flower clusters, raw",
+        "data_type": "SR Legacy",
+        "retrieved_at": "2026-09-14T18:18:18.980536+00:00",
+        "food_state": "raw",
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": 28.0,
+          "protein": 2.98,
+          "carbohydrates": 5.06,
+          "fat": 0.35,
+          "fiber": 2.3,
+          "sodium": 27.0
+        },
+        "nutrient_ids": {
+          "calories": 1008,
+          "protein": 1003,
+          "carbohydrates": 1005,
+          "fat": 1004,
+          "fiber": 1079,
+          "sodium": 1093
+        },
+        "portions": []
+      },
+      "nutrients": {
+        "calories": 84.0,
+        "protein": 8.94,
+        "carbohydrates": 15.18,
+        "fat": 1.05,
+        "fiber": 6.9,
+        "sodium": 81.0
+      },
+      "reason": null
+    },
+    {
+      "ingredient_index": 2,
+      "ingredient": {
+        "original_text": "25.0 ml extra virgin olive oil",
+        "name": "extra virgin olive oil",
+        "canonical_name": "olive oil",
+        "quantity": 25.0,
+        "unit": "ml",
+        "normalized_unit": "ml",
+        "preparation": null,
+        "food_state": null,
+        "grams": 22.675,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "USDA FDC 748608: milliliter, 90.7 g per 100.0 ml."
+      },
+      "status": "partial",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "748608",
+        "description": "Oil, olive, extra virgin",
+        "data_type": "Foundation",
+        "retrieved_at": "2026-09-14T18:20:14.235313+00:00",
+        "food_state": null,
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": null,
+          "protein": null,
+          "carbohydrates": null,
+          "fat": null,
+          "fiber": null,
+          "sodium": null
+        },
+        "nutrient_ids": {},
+        "portions": [
+          {
+            "unit": "ml",
+            "amount": 100.0,
+            "gram_weight": 90.7,
+            "description": "milliliter"
+          }
+        ]
+      },
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "The matched food record is missing a required nutrient."
+    },
+    {
+      "ingredient_index": 3,
+      "ingredient": {
+        "original_text": "15.0 g fresh garlic cloves, minced",
+        "name": "fresh garlic cloves",
+        "canonical_name": null,
+        "quantity": 15.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": "minced",
+        "food_state": null,
+        "grams": 15.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unavailable",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "Nutrition provider unavailable or timed out. Uncalculated ingredients remain unknown."
+    },
+    {
+      "ingredient_index": 4,
+      "ingredient": {
+        "original_text": "3.0 g sea salt",
+        "name": "sea salt",
+        "canonical_name": null,
+        "quantity": 3.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 3.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "unavailable",
+      "food": null,
+      "nutrients": {
+        "calories": null,
+        "protein": null,
+        "carbohydrates": null,
+        "fat": null,
+        "fiber": null,
+        "sodium": null
+      },
+      "reason": "Nutrition provider unavailable or timed out. Uncalculated ingredients remain unknown."
+    },
+    {
+      "ingredient_index": 5,
+      "ingredient": {
+        "original_text": "1.0 g ground black pepper",
+        "name": "ground black pepper",
+        "canonical_name": null,
+        "quantity": 1.0,
+        "unit": "g",
+        "normalized_unit": "g",
+        "preparation": null,
+        "food_state": null,
+        "grams": 1.0,
+        "status": "normalized",
+        "reason": null,
+        "conversion_evidence": "Mass unit conversion: 1 g = 1 g; edible ingredient weight."
+      },
+      "status": "calculated",
+      "food": {
+        "source": "usda_fdc",
+        "food_id": "170931",
+        "description": "Spices, pepper, black",
+        "data_type": "SR Legacy",
+        "retrieved_at": "2026-09-14T18:23:00.780422+00:00",
+        "food_state": null,
+        "match_quality": "exact_name_and_state",
+        "nutrients_per_100g": {
+          "calories": 251.0,
+          "protein": 10.39,
+          "carbohydrates": 63.95,
+          "fat": 3.26,
+          "fiber": 25.3,
+          "sodium": 20.0
+        },
+        "nutrient_ids": {
+          "calories": 1008,
+          "protein": 1003,
+          "carbohydrates": 1005,
+          "fat": 1004,
+          "fiber": 1079,
+          "sodium": 1093
+        },
+        "portions": []
+      },
+      "nutrients": {
+        "calories": 2.51,
+        "protein": 0.1039,
+        "carbohydrates": 0.6395,
+        "fat": 0.0326,
+        "fiber": 0.253,
+        "sodium": 0.2
+      },
+      "reason": null
+    }
+  ],
+  "unmatched_ingredients": [
+    "15.0 g fresh garlic cloves, minced",
+    "3.0 g sea salt"
+  ],
+  "constraint_results": [
+    {
+      "constraint": "maximum_calories",
+      "requested": 650.0,
+      "actual": null,
+      "unit": "kcal",
+      "status": "unknown",
+      "passed": null,
+      "difference": null,
+      "reason": "Insufficient calculated nutrient coverage; the AI estimate is not used.",
+      "evidence": [
+        "usda_fdc:2646170",
+        "usda_fdc:169330",
+        "usda_fdc:748608",
+        "usda_fdc:170931"
+      ]
+    },
+    {
+      "constraint": "minimum_protein",
+      "requested": 35.0,
+      "actual": null,
+      "unit": "g",
+      "status": "unknown",
+      "passed": null,
+      "difference": null,
+      "reason": "Insufficient calculated nutrient coverage; the AI estimate is not used.",
+      "evidence": [
+        "usda_fdc:2646170",
+        "usda_fdc:169330",
+        "usda_fdc:748608",
+        "usda_fdc:170931"
+      ]
+    },
+    {
+      "constraint": "maximum_cooking_time",
+      "requested": 30.0,
+      "actual": 15.0,
+      "unit": "minutes",
+      "status": "passed",
+      "passed": true,
+      "difference": -15.0,
+      "reason": "At or below the inclusive maximum.",
+      "evidence": [
+        "recipe:estimated_cook_time"
+      ]
+    }
+  ],
+  "overall_constraint_status": "partially_verified",
+  "potential_allergen_warnings": [],
+  "constraint_version": "constraints-v1",
+  "recipe": {
+    "title": "Garlic Saut\u00e9ed Chicken and Broccoli",
+    "description": "A quick and healthy stir-fry featuring tender chicken breast and crisp broccoli florets saut\u00e9ed with fresh garlic and olive oil.",
+    "ingredients": [
+      {
+        "name": "raw boneless skinless chicken breast",
+        "quantity": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "raw broccoli florets",
+        "quantity": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "extra virgin olive oil",
+        "quantity": 25.0,
+        "unit": "ml"
+      },
+      {
+        "name": "fresh garlic cloves, minced",
+        "quantity": 15.0,
+        "unit": "g"
+      },
+      {
+        "name": "sea salt",
+        "quantity": 3.0,
+        "unit": "g"
+      },
+      {
+        "name": "ground black pepper",
+        "quantity": 1.0,
+        "unit": "g"
+      }
+    ],
+    "instructions": [
+      "Cut the chicken breast into bite-sized strips and season with salt and pepper.",
+      "Heat half of the olive oil in a large skillet over medium-high heat.",
+      "Add the chicken to the skillet and cook until browned and fully cooked through, approximately 6-8 minutes. Remove chicken from the pan and set aside.",
+      "Add the remaining olive oil to the same pan. Add the broccoli florets and a splash of water, cover, and steam for 3-4 minutes until tender-crisp.",
+      "Uncover, add the minced garlic, and stir-fry for 1 minute until fragrant.",
+      "Return the chicken to the pan, toss everything together for 1 minute to combine, and serve immediately."
+    ],
+    "prep_time": 10,
+    "cook_time": 15,
+    "total_time": 25,
+    "servings": 2,
+    "cuisine": "Healthy Mediterranean",
+    "difficulty": "beginner",
+    "dietary_tags": [
+      "high-protein",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "potential_allergens": [],
+    "nutrition": {
+      "calories": 355.0,
+      "protein": 46.0,
+      "carbohydrates": 10.0,
+      "fat": 14.0,
+      "fiber": 4.0,
+      "sodium": 350.0
+    },
+    "id": "21d2a06c-1b45-42f0-b7b1-6acf6c424aca",
+    "recipe_version_id": "6231706f-b851-4f18-a32f-9ed08c7b1a19",
+    "validation_status": "unverified",
+    "nutrition_source": "ai_estimate",
+    "nutrition_basis": "per_serving"
+  },
+  "warnings": [
+    "Legacy recipe.nutrition contains AI estimates; calculated_nutrition is independent food-data arithmetic.",
+    "Generic food data does not establish allergen safety. Check ingredients and product labels.",
+    "Additional ingredients may be included; review the complete ingredient list."
+  ],
+  "metadata": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "recipe-v4",
+    "schema_version": "1.1"
+  },
+  "trace_id": "6824d737-d83f-4d71-8565-df2e6e5421c6"
+}

@@ -1,0 +1,66 @@
+name: Offline verification
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: offline-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MEALMIND_ENVIRONMENT: development
+      MEALMIND_DEV_MOCK_AI: 'false'
+      GEMINI_API_KEY: ''
+      USDA_API_KEY: ''
+      SUPABASE_URL: ''
+      SUPABASE_ANON_KEY: ''
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r backend/requirements.txt
+      - run: python -m unittest discover -s tests
+        working-directory: backend
+
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CI: 'true'
+      REACT_APP_API_URL: https://api.example.invalid
+      REACT_APP_SUPABASE_URL: https://project.example.invalid
+      REACT_APP_SUPABASE_ANON_KEY: sb_publishable_ci_placeholder
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts
+      - name: Frontend tests (no account configuration)
+        run: npm test -- --watchAll=false --runInBand
+        env:
+          REACT_APP_SUPABASE_URL: ''
+          REACT_APP_SUPABASE_ANON_KEY: ''
+      - run: node --test scripts/validate-env.test.cjs
+      - run: npm run build
+      - name: Dependency advisories (known CRA findings; review output)
+        run: npm audit --audit-level=low
+        continue-on-error: true

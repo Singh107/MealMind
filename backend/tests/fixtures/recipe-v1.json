@@ -1,0 +1,15 @@
+{
+  "title": "Lentil and Tomato Stew",
+  "description": "A simple lentil stew with tomatoes.",
+  "ingredients": [{"name": "Lentils", "quantity": 200, "unit": "g"}, {"name": "Tomatoes", "quantity": 300, "unit": "g"}],
+  "instructions": ["Rinse lentils and dice tomatoes.", "Simmer the ingredients in water until the lentils are tender."],
+  "prep_time": 10,
+  "cook_time": 25,
+  "total_time": 35,
+  "servings": 4,
+  "cuisine": "mediterranean",
+  "difficulty": "beginner",
+  "dietary_tags": ["vegan"],
+  "potential_allergens": [],
+  "nutrition": {"calories": 210, "protein": 14, "carbohydrates": 35, "fat": 1, "fiber": 8, "sodium": null}
+}

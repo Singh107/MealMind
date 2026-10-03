@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background: 248 250 252;
+  --surface: 255 255 255;
+  --surface-secondary: 241 245 249;
+  --surface-hover: 226 232 240;
+  --text-primary: 15 23 42;
+  --text-secondary: 71 85 105;
+  --text-muted: 71 85 105;
+  --border: 226 232 240;
+  --primary: 154 62 0;
+  --primary-action: 196 85 0;
+  --primary-hover: 169 68 0;
+  --primary-soft: 255 232 207;
+  --fresh: 15 105 98;
+  --fresh-soft: 219 246 238;
+  --sky: 28 94 145;
+  --sky-soft: 225 241 253;
+  --on-primary: 255 255 255;
+  --brand-highlight: 255 142 37;
+  --accent: 154 62 0;
+  --accent-soft: 255 226 191;
+  --success: 54 96 65;
+  --warning: 125 85 22;
+  --danger: 165 51 47;
+  --danger-soft: 248 231 227;
+  --font-headline: "Bricolage Grotesque", sans-serif; --font-body: "Space Grotesk", sans-serif; }
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: rgb(var(--background));
+    color: rgb(var(--text-primary));
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-headline);
+  }
+}
+
+.font-headline-sm {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.font-headline-md {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.font-headline-lg-mobile {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.font-label-sm {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
+.font-label-md {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.font-label-lg {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
+.font-body-sm {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.font-body-lg {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+/* Material Symbols alignment */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* Hide scrollbars */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html { color-scheme: light; }
+body { margin: 0; -webkit-font-smoothing: antialiased; }
+button,input,select,textarea { font: inherit; }
+button { touch-action: manipulation; }
+button:disabled { opacity:.5; cursor:not-allowed; }
+:focus-visible { outline:2px solid rgb(var(--primary)); outline-offset:4px; }
+input,select,textarea { max-width:100%; background-color:rgb(var(--surface)); color:rgb(var(--text-primary)); border-color:rgb(var(--border)); }
+input[type=checkbox],input[type=range] { accent-color:rgb(var(--primary)); }
+input::placeholder,textarea::placeholder { color:rgb(var(--text-muted)); }
+.material-symbols-outlined { font-family:'Material Symbols Outlined'; font-weight:normal; font-style:normal; font-size:24px; display:inline-block; white-space:nowrap; word-wrap:normal; direction:ltr; -webkit-font-feature-settings:'liga'; -webkit-font-smoothing:antialiased; }
+.mm-page { width:100%; max-width:56rem; margin:auto; padding:1rem; }
+.mm-panel { background:rgb(var(--surface)); border:1px solid rgb(var(--border)); border-radius:1.5rem; padding:1.25rem; }
+.mm-button { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; background:rgb(var(--primary-action)); color:rgb(var(--on-primary)); border-radius:999px; padding:.75rem 1.25rem; font-weight:700; }
+.mm-secondary { background:rgb(var(--surface-secondary)); color:rgb(var(--text-primary)); }
+.mm-kicker { color:rgb(var(--primary)); text-transform:uppercase; letter-spacing:.15em; font-size:.65rem; font-weight:700; }
+.mm-content > section { background:transparent; padding-top:1.5rem; padding-bottom:1.5rem; }
+.mm-content h1 { font-size:clamp(1.75rem,4vw,2.25rem); letter-spacing:-.03em; }
+.mm-content h2 { letter-spacing:-.02em; }
+.mm-content { overflow-wrap:anywhere; }
+@media (max-width:400px) { .mm-nav button { min-width:0; padding-left:4px; padding-right:4px; flex:1; } }
+@media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important; } }
+
+/* Shared clearance for the floating navigation on every route and device inset. */
+.mm-content { padding-bottom: calc(7rem + env(safe-area-inset-bottom, 0px)); }
+html { scroll-padding-bottom: calc(7rem + env(safe-area-inset-bottom, 0px)); }
+
+@layer base { *, ::before, ::after { border-color: rgb(var(--border)); } }
+.mm-button:hover:not(:disabled) { background: rgb(var(--primary-hover)); }
+.mm-secondary:hover:not(:disabled) { background: rgb(var(--surface-hover)); }
+
+/* Stronger control boundaries than decorative card dividers. */
+.mm-content input:not([type=checkbox]):not([type=range]), .mm-content select, .mm-content textarea { border-color: rgb(var(--text-muted)); }
+
+/* Color-only action treatment; existing sizes and shapes are retained. */
+.mm-action { background-color: rgb(var(--primary-action)); color: rgb(var(--on-primary)); }
+.mm-action:hover:not(:disabled) { background-color: rgb(var(--primary-hover)); }
+
+/* Retain the existing layout while clearing notches in either orientation. */
+.mm-header {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+}
+.mm-content {
+  padding-top: calc(5rem + env(safe-area-inset-top, 0px));
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+}
+.mm-nav {
+  padding-left: max(.5rem, env(safe-area-inset-left, 0px));
+  padding-right: max(.5rem, env(safe-area-inset-right, 0px));
+}
+html { scroll-padding-top: calc(5rem + env(safe-area-inset-top, 0px)); }
+
+@media (max-width: 359px) {
+  /* The optional badge must not crowd the home/profile controls at 320px. */
+  .mm-header-badge { display: none; }
+}
+@media (max-width: 639px), (pointer: coarse) {
+  .mm-content .flex > *, .mm-content .grid > * { min-width: 0; }
+  .mm-content button, .mm-content .flex > button, .mm-content .grid > button {
+    min-height: 44px;
+    min-width: 44px;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .mm-content .mm-check-target { min-height: 44px; }
+  .mm-content summary { min-height: 44px; padding-block: .5rem; }
+  .mm-content input:not([type=checkbox]):not([type=range]):not([type=file]),
+  .mm-content select, .mm-content textarea {
+    min-width: 0;
+    min-height: 44px;
+    font-size: 16px;
+    scroll-margin-block: 5rem 8rem;
+  }
+}
