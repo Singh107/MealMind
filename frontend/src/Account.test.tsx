@@ -34,7 +34,7 @@ beforeEach(() => {
   auth.signUp.mockResolvedValue({ data: { session: null }, error: null });
   auth.signOut.mockImplementation(async () => { session = null; listener?.('SIGNED_OUT', null); return { error: null }; });
   global.fetch = jest.fn(async (url, options: any = {}) => {
-    const path = String(url).replace('http://127.0.0.1:8000', '');
+    const path = new URL(String(url)).pathname;
     if (path === '/api/preferences') {
       if (options.method === 'PUT') preferences = JSON.parse(options.body);
       return json(preferences);
