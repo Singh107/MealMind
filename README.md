@@ -12,8 +12,7 @@
 
 **[SCREENSHOT 1 — HERO]**
 
-> **Add here:** One clean screenshot of MealMind's main Recipe Studio/home experience.  
-> Try to have the interface populated rather than completely empty. This should be the best-looking screenshot because it is the first thing someone sees.
+<img width="1192" height="1030" alt="image" src="https://github.com/user-attachments/assets/9060871f-cbcd-42ec-82cf-c612aa6537fa" />
 
 ---
 
@@ -87,12 +86,8 @@ A photograph alone is never treated as proof of ingredient weight, freshness, al
 
 **[SCREENSHOTS 4A + 4B — INGREDIENT SCANNER]**
 
-> **Add here:** Use **2 screenshots**, not all three unless absolutely necessary.
->
-> **4A:** The strongest recognition/review screen showing what MealMind identified.  
-> **4B:** The confirmed result or Pantry/Recipe Studio action.
->
-> You probably don't need a separate screenshot that only shows the original upload screen unless it adds something important.
+<img width="1205" height="1032" alt="scanner_image1" src="https://github.com/user-attachments/assets/00f696a4-de7c-407e-91fe-3bdfb8404452" />
+<img width="1137" height="852" alt="scanner_image2" src="https://github.com/user-attachments/assets/f45c69ea-2228-461b-a285-345dd7e948ef" />
 
 ---
 
@@ -106,8 +101,10 @@ This keeps image recognition separate from nutrition calculation and makes uncer
 
 **[SCREENSHOTS 5A + 5B — MEAL ANALYZER]**
 
-> **Add here:** These are the **2 screenshots you already took** showing the analyzed meal/results.  
-> That's enough. You don't need another screenshot just to show the initial upload state.
+<img width="1157" height="936" alt="analyzer_image1" src="https://github.com/user-attachments/assets/3b68fd40-007f-4c53-8d22-1fc52c52a64b" />
+<img width="1262" height="945" alt="analyzer_image2" src="https://github.com/user-attachments/assets/c38e1850-ae15-49e8-a95f-55988f2cf82e" />
+<img width="1217" height="872" alt="analyzer_image3" src="https://github.com/user-attachments/assets/3532da4c-6db3-4280-9c0b-f7ecd6aea048" />
+
 
 ---
 
