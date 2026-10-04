@@ -12,8 +12,8 @@
 
 **[SCREENSHOT 1 — HERO]**
 
-> **Add here:** One clean screenshot of MealMind's main Recipe Studio/home experience.  
-> Try to have the interface populated rather than completely empty. This should be the best-looking screenshot because it is the first thing someone sees.
+<img width="1192" height="1030" alt="image" src="https://github.com/user-attachments/assets/9060871f-cbcd-42ec-82cf-c612aa6537fa" />
+
 
 ---
 
