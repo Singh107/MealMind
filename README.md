@@ -38,8 +38,8 @@ Generated recipes are processed through MealMind's own normalization, nutrition,
 
 **[SCREENSHOT 2 — RECIPE + NUTRITION]**
 
-> **Add here:** Your best generated recipe screenshot. Ideally show the recipe plus some of its nutrition/constraint information.  
-> If the full recipe requires scrolling, use **at most 2 screenshots** here.
+<img width="1157" height="1027" alt="recipe_image1" src="https://github.com/user-attachments/assets/8c7813e8-a44f-4385-973f-7a3efe5c3081" />
+<img width="1116" height="1021" alt="recipe_image2" src="https://github.com/user-attachments/assets/18bb319e-2e6b-49c9-90d0-31c4cfd111a0" />
 
 ---
 
@@ -63,8 +63,9 @@ MealMind also avoids pretending to know more than the available data supports: h
 
 **[SCREENSHOT 3 — PANTRY]**
 
-> **Add here:** Use one screenshot that shows your pantry populated with realistic ingredients.  
-> If possible, capture pantry recommendations in the same screenshot. If that isn't possible, you can use **2 screenshots maximum** for this section.
+<img width="1217" height="1026" alt="pantry_image1" src="https://github.com/user-attachments/assets/ca927c91-105b-4c85-a47c-eec038a19f22" />
+<img width="1175" height="1032" alt="pantry_image2" src="https://github.com/user-attachments/assets/0caf7b50-d6b3-498d-bdc1-d15011fc7660" />
+
 
 ---
 
