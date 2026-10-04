@@ -1,153 +1,84 @@
 # MealMind
 
-MealMind is a full-stack food-intelligence application combining generative AI, structured food data, deterministic constraint checks, pantry matching and human-reviewed computer vision.
+**AI-powered food intelligence for personalized recipes, grounded nutrition, pantry-aware recommendations, ingredient scanning, and meal analysis.**
 
-## Live demo
+🌐 **Live Demo:** https://meal-mind-sand.vercel.app
 
-Deployment pending. No public demo is currently provided.
+> MealMind combines generative AI with structured food data and deterministic validation so that AI can handle reasoning and interpretation without being treated as the source of truth for nutritional facts.
 
-## Screenshots
+---
 
-Clean screenshots of Recipe Studio, recipe nutrition/constraints, Pantry and photo review are planned. See the [screenshot checklist](docs/screenshots.md). No personal-account screenshots are included.
+## 📸 MealMind in Action
 
-## Why MealMind
+**[SCREENSHOT 1 — HERO]**
 
-Generating a plausible recipe is different from checking its nutrition or dietary restrictions. MealMind separates AI proposals from independently calculated results. Gemini produces structured recipes and recognition suggestions; validated quantities and matched USDA records determine calculated nutrition. Constraint checks retain **passed**, **failed** and **unknown** outcomes. Missing evidence is never treated as zero or proof of safety.
+> **Add here:** One clean screenshot of MealMind's main Recipe Studio/home experience.  
+> Try to have the interface populated rather than completely empty. This should be the best-looking screenshot because it is the first thing someone sees.
 
-## Features
+---
 
-- Recipe generation with saved preferences, dietary restrictions, exclusions and nutrition goals.
-- USDA-backed nutrition with ingredient provenance and explicit partial/unavailable coverage.
-- Independent constraint validation and user-triggered Recipe Repair with bounded attempts and deterministic selection.
-- Account-owned Pantry, conservative ingredient/quantity matching and pantry-aware ranking of saved recipes.
-- Curated, context-specific substitutions with explicit preview and independent recalculation.
-- Ingredient Scanner with editable recognition suggestions and confirmation before Pantry/Studio actions.
-- Meal Analyzer with reviewed components and user-supplied quantities before nutrition calculation.
-- Saved recipes, preferences, Supabase authentication, session restoration and password recovery.
+## What is MealMind?
 
-## Architecture
+MealMind is a full-stack food intelligence platform built to help users decide what to cook, understand what they're eating, and make better use of ingredients they already have.
 
-```text
-User preferences / Pantry / Photo
-                |
-         React + TypeScript
-                |
-            FastAPI
-                |
-    Gemini structured proposals
-                |
-      Ingredient normalization
-                |
-    USDA matching + quantity calculation
-                |
-       Constraint validation
-                |
-    Recipe result / bounded repair
+A central design principle behind MealMind is that **generative AI and factual food data should have different responsibilities**.
 
-Pantry and substitution services reuse normalization and validation.
-Supabase Auth verifies identity; owner-scoped Postgres RLS protects saved data.
-Persistence occurs through explicit user actions, not every AI response.
-```
+Gemini handles tasks where reasoning and interpretation are useful, such as generating recipes and proposing ingredient recognition results. Structured USDA FoodData Central records are used for nutrition rather than relying on AI-generated estimates.
 
-AI nutrition estimates are not authoritative. Pantry browsing and substitution discovery are deterministic and do not require AI calls. See [architecture](docs/architecture.md) for the distinct workflows.
+MealMind then independently normalizes ingredients, calculates nutrition, evaluates user constraints, and preserves uncertainty when evidence is incomplete.
 
-## Human-in-the-loop design
+---
 
-Scanner proposes ingredient names. The user edits and confirms them before choosing a Pantry or Recipe Studio action. Meal Analyzer proposes meal components; the user reviews them and supplies quantities before requesting nutrition. A photo cannot establish weight, allergens, freshness or food safety. Neither flow silently stores the image or automatically generates/saves a recipe.
+## ✨ Features
 
-## Tech stack
+### 🍳 Constraint-Aware Recipe Generation
 
-| Layer | Technologies |
-| --- | --- |
-| Frontend | React, TypeScript, Tailwind CSS, Create React App |
-| Backend | Python, FastAPI, Pydantic, HTTPX, Pillow |
-| Accounts/data | Supabase Auth, PostgreSQL, row-level security |
-| AI/food records | Gemini API, USDA FoodData Central |
-| Verification | Python unittest, Jest/React Testing Library, Node build guards, deterministic evaluation tooling |
+Generate personalized recipes around saved preferences, dietary restrictions, ingredient exclusions, and nutrition goals.
 
-## Security and privacy
+Generated recipes are processed through MealMind's own normalization, nutrition, and constraint pipeline rather than treating the AI response as automatically correct.
 
-Provider secrets stay on the backend. Account APIs verify bearer identity and use caller-scoped Supabase requests under RLS. Uploaded images are bounded, decoded, re-encoded and stripped of metadata; MealMind does not permanently store them. The external vision provider still receives the sanitized image when analysis is requested.
+**[SCREENSHOT 2 — RECIPE + NUTRITION]**
 
-Production configuration guards, body limits, provider deadlines, bounded responses and per-process rate/concurrency controls are implemented. Shared edge limits, production headers and deployment review are still required. This is not a claim of complete security or allergy safety. Read [security](docs/security.md) and [dependency status](docs/dependencies.md).
+> **Add here:** Your best generated recipe screenshot. Ideally show the recipe plus some of its nutrition/constraint information.  
+> If the full recipe requires scrolling, use **at most 2 screenshots** here.
 
-## Local development
+---
 
-Prerequisites: Python 3.13 and Node 24 are the verification versions; npm and Git are required. Run backend and frontend in separate terminals. These commands use PowerShell on Windows.
+### 🔧 Recipe Repair
 
-```powershell
-# Terminal 1, from the repository root
-cd backend
-python -m venv venv
-venv/Scripts/python.exe -m pip install -r requirements.txt
-if (!(Test-Path .env)) { Copy-Item .env.example .env }
-# Edit .env locally with your own configuration.
-venv/Scripts/python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
-```
+When a generated recipe does not satisfy a user's requested constraints, MealMind can attempt to repair it instead of simply generating an unrelated recipe from scratch.
 
-```powershell
-# Terminal 2, from the repository root
-cd frontend
-npm.cmd ci --ignore-scripts
-if (!(Test-Path .env)) { Copy-Item .env.example .env }
-# Configure public Supabase settings for account features.
-$env:HOST='127.0.0.1'
-npm.cmd start
-```
+Repair attempts are bounded, independently recalculated, and evaluated against the original constraints before a result is selected.
 
-On macOS/Linux, use `python3`, `venv/bin/python`, `npm` and equivalent shell environment/copy commands. The API health endpoint is `http://127.0.0.1:8000/health`; the frontend is `http://127.0.0.1:3000`. Health confirms reachability, not provider availability. Keep the development server local; it is not a production host.
+This keeps the AI generation layer separate from the system responsible for determining whether a recipe actually satisfies the requested requirements.
 
-Account features require a Supabase project with `supabase/migrations/` applied in filename order. Configure local Auth Site URL/redirects for your frontend and the intended sign-in method. Use only the public publishable/anon key in the application. Never run migrations against a database you do not intend to configure. The SQL ownership exercise in `supabase/tests/` is a separately invoked development-database check, not part of offline CI.
+---
 
-## Environment variables
+### 🥫 Pantry Intelligence
 
-Start with [backend/.env.example](backend/.env.example) and [frontend/.env.example](frontend/.env.example). Never commit populated local copies.
+MealMind allows users to maintain an account-owned pantry and uses normalized ingredient matching to understand which saved recipes can make use of ingredients they already have.
 
-- `GEMINI_API_KEY` and `USDA_API_KEY`: backend-only secrets.
-- `SUPABASE_URL` / `SUPABASE_ANON_KEY`: public project configuration used by the backend alongside the verified caller token.
-- `REACT_APP_API_URL`, `REACT_APP_SUPABASE_URL`, `REACT_APP_SUPABASE_ANON_KEY`: browser-public values only; no other `REACT_APP_*` variables are approved.
-- Production requires `MEALMIND_ENVIRONMENT=production`, public HTTPS origins/hosts, configured providers and mock mode disabled. The deployment factory refuses development mode.
+Pantry-aware ranking is deterministic and does not require another AI request just to determine ingredient overlap.
 
-Restart processes after configuration changes. Frontend production values are embedded during build. No service-role key, database admin credential or verification-user password is needed for ordinary use.
+MealMind also avoids pretending to know more than the available data supports: having an ingredient in the pantry does not automatically prove that the user has enough of it to complete a recipe.
 
-## Testing
+**[SCREENSHOT 3 — PANTRY]**
 
-```powershell
-# From backend
-venv/Scripts/python.exe -m unittest discover -s tests
-venv/Scripts/python.exe -m evaluation --mode fixture
+> **Add here:** Use one screenshot that shows your pantry populated with realistic ingredients.  
+> If possible, capture pantry recommendations in the same screenshot. If that isn't possible, you can use **2 screenshots maximum** for this section.
 
-# From frontend
-$env:CI='true'
-npm.cmd test -- --watchAll=false --runInBand
-node --test scripts/validate-env.test.cjs
-```
+---
 
-For offline compilation use non-secret, nonfunctional placeholders:
+### 🔄 Context-Aware Ingredient Substitutions
 
-```powershell
-# From frontend; never deploy this placeholder build.
-$env:REACT_APP_API_URL='https://api.example.invalid'
-$env:REACT_APP_SUPABASE_URL='https://project.example.invalid'
-$env:REACT_APP_SUPABASE_ANON_KEY='sb_publishable_ci_placeholder'
-npm.cmd run build
-```
+MealMind provides curated substitutions based on the context in which an ingredient is being used.
 
-Current verified baseline (October 3, 2026): **303 backend tests**, **189 frontend tests across 17 suites**, **4 build-guard tests**, and a passing production build. These are verification results, not permanent guarantees. CI repeats offline tests and compilation without provider credentials or live account mutations. See [evaluation](docs/evaluation.md) for what synthetic results measure.
+Users can preview substitutions before applying them, and affected nutrition and constraints can be independently recalculated rather than assuming a substitution is nutritionally equivalent.
 
-## Known limitations
+---
 
-- Nutrition depends on food-record and portion matches; some ingredients/nutrients remain partial or unresolved.
-- Substitutions are curated and context-specific, not universal cooking equivalences.
-- Pantry presence does not prove sufficient quantity; piece-to-weight conversion is intentionally not guessed.
-- Vision confidence is uncalibrated and requires user review.
-- Neither dietary checks nor photos certify allergy safety or cross-contact absence.
-- The CRA/react-scripts development/build toolchain has **29 documented audit findings**. Do not expose its development server or give untrusted builds credentials. Toolchain migration is separate work.
+### 📷 Ingredient Scanner
 
-## Deployment
+The Ingredient Scanner uses computer vision to propose ingredients from an uploaded image.
 
-Deployment is pending. The intended architecture is a static HTTPS frontend, separately hosted FastAPI API and Supabase. Host/proxy trust, shared limits, provider quotas, CSP, recovery redirects and RLS must be verified before public exposure. No deployment workflow is included.
-
-## License and assets
-
-MealMind is licensed under the [MIT License](LICENSE). The local brand mark and decorative graphic were created for MealMind; externally hosted fonts retain their own licenses. See [asset provenance and attribution](docs/assets.md).
+MealMind intentionally keeps a human in the loop. Recognition results are suggestions: users can review and edit detected ingredients before confirming what should
