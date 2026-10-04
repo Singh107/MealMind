@@ -1,14 +1,12 @@
 // Build-time boundary: only these deliberately public values may enter CRA bundles.
 function validate(env) {
   const allowed = new Set(['REACT_APP_API_URL','REACT_APP_SUPABASE_URL','REACT_APP_SUPABASE_ANON_KEY']);
-  const rejected = Object.keys(env)
-    .filter(name => name.startsWith('REACT_APP_') && !allowed.has(name))
-    .sort();
-
-  if (rejected.length) {
-    throw new Error(
-      `Unexpected REACT_APP_ variable name(s): ${JSON.stringify(rejected)}`
-    );
+  for (const name of Object.keys(env)) {
+    if (name.startsWith('REACT_APP_') && !allowed.has(name)) {
+      throw new Error(
+        'Unexpected REACT_APP_ variable. Only approved public configuration may enter the bundle.'
+      );
+    }
   }
   for (const name of ['REACT_APP_API_URL','REACT_APP_SUPABASE_URL']) {
     let url;
