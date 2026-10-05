@@ -10,7 +10,6 @@
 
 ## 📸 MealMind in Action
 
-**[SCREENSHOT 1 — HERO]**
 
 <img width="1192" height="1030" alt="image" src="https://github.com/user-attachments/assets/9060871f-cbcd-42ec-82cf-c612aa6537fa" />
 
@@ -36,7 +35,6 @@ Generate personalized recipes around saved preferences, dietary restrictions, in
 
 Generated recipes are processed through MealMind's own normalization, nutrition, and constraint pipeline rather than treating the AI response as automatically correct.
 
-**[SCREENSHOT 2 — RECIPE + NUTRITION]**
 
 <img width="1157" height="1027" alt="recipe_image1" src="https://github.com/user-attachments/assets/8c7813e8-a44f-4385-973f-7a3efe5c3081" />
 <img width="1116" height="1021" alt="recipe_image2" src="https://github.com/user-attachments/assets/18bb319e-2e6b-49c9-90d0-31c4cfd111a0" />
@@ -61,7 +59,6 @@ Pantry-aware ranking is deterministic and does not require another AI request ju
 
 MealMind also avoids pretending to know more than the available data supports: having an ingredient in the pantry does not automatically prove that the user has enough of it to complete a recipe.
 
-**[SCREENSHOT 3 — PANTRY]**
 
 <img width="1217" height="1026" alt="pantry_image1" src="https://github.com/user-attachments/assets/ca927c91-105b-4c85-a47c-eec038a19f22" />
 <img width="1175" height="1032" alt="pantry_image2" src="https://github.com/user-attachments/assets/0caf7b50-d6b3-498d-bdc1-d15011fc7660" />
@@ -85,7 +82,6 @@ MealMind intentionally keeps a human in the loop. Recognition results are sugges
 
 A photograph alone is never treated as proof of ingredient weight, freshness, allergens, cross-contact, or food safety.
 
-**[SCREENSHOTS 4A + 4B — INGREDIENT SCANNER]**
 
 <img width="1205" height="1032" alt="scanner_image1" src="https://github.com/user-attachments/assets/00f696a4-de7c-407e-91fe-3bdfb8404452" />
 <img width="1137" height="852" alt="scanner_image2" src="https://github.com/user-attachments/assets/f45c69ea-2228-461b-a285-345dd7e948ef" />
@@ -100,7 +96,6 @@ Instead of pretending that a photograph can reveal exact quantities, MealMind as
 
 This keeps image recognition separate from nutrition calculation and makes uncertainty visible to the user.
 
-**[SCREENSHOTS 5A + 5B — MEAL ANALYZER]**
 
 <img width="1157" height="936" alt="analyzer_image1" src="https://github.com/user-attachments/assets/3b68fd40-007f-4c53-8d22-1fc52c52a64b" />
 <img width="1262" height="945" alt="analyzer_image2" src="https://github.com/user-attachments/assets/c38e1850-ae15-49e8-a95f-55988f2cf82e" />
