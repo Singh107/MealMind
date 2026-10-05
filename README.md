@@ -415,6 +415,8 @@ The result is a food intelligence platform where AI is one component of the syst
 
 🌐 **Live Demo:** https://meal-mind-sand.vercel.app
 
+**Backend Start:** https://mealmind-api-aenx.onrender.com/health
+
 💻 **Source Code:** https://github.com/Singh107/MealMind
 
 ---
